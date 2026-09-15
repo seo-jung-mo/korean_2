@@ -34,7 +34,7 @@ function skillGuides() {
   return `<div class="skill-guides"><section><strong>🎧 듣기 순서</strong><ol><li>질문을 먼저 읽어요.</li><li>한국어 음성을 들어요.</li><li>대본과 비교해요.</li><li>답을 고르고 확인해요.</li></ol></section><section><strong>🎙️ 말하기 순서</strong><ol><li>핵심 단어 두 개를 골라요.</li><li>짧은 문장으로 먼저 말해요.</li><li>문법을 넣어 다시 말해요.</li></ol></section></div>`;
 }
 function listeningQuestion(q,esc) {
-  return `<div class="listening-question"><span class="mini-label">먼저 읽어 보세요</span><h2>${esc(q.question)}</h2></div>`;
+  return `<div class="listening-question"><span class="mini-label">먼저 읽어 보세요</span><h2><span class="question-label">질문:</span> ${esc(q.question)}</h2></div>`;
 }
 export function puzzleTokens(unit,step){
   const sentence=(step==='practice1'?unit.dialoguePractice.one:unit.dialoguePractice.two).sentence;
