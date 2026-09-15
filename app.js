@@ -165,11 +165,11 @@ $app.addEventListener('click', async e => {
   if(a==='journey-tts') { speak(el.dataset.text); return; }
   if(a==='journey-transcript') {state.journey.transcript=!state.journey.transcript;render();return;}
   if(a==='journey-choice') {state.journey.answerChoice=Number(el.dataset.index);render();return;}
-  if(a==='journey-check') {const j=state.journey;if(j.answerChecked&&j.answerChoice!==currentJourneyQuestion().answer){j.answerChecked=false;j.answerChoice=null;}else j.answerChecked=true;render();return;}
+  if(a==='journey-check') {const j=state.journey;if(j.answerChecked&&j.answerChoice!==currentJourneyQuestion().answer){j.answerChecked=false;j.answerChoice=null;}else {j.answerChecked=true;if(j.answerChoice===currentJourneyQuestion().answer)state.notice='';}render();return;}
   if(a==='journey-hint') {state.journey.hintLevel=Math.min(3,state.journey.hintLevel+1);render();return;}
   if(a==='journey-token') {const j=state.journey,index=Number(el.dataset.index);if(!j.puzzleSelected.includes(index)){j.puzzleSelected.push(index);j.puzzleChecked=false;render();}return;}
   if(a==='journey-puzzle-clear') {state.journey.puzzleSelected=[];state.journey.puzzleChecked=false;render();return;}
-  if(a==='journey-puzzle-check') {state.journey.puzzleChecked=true;render();return;}
+  if(a==='journey-puzzle-check') {const j=state.journey;const {ordered,mixed}=puzzleTokens(state.unit,j.step);j.puzzleChecked=true;if(j.puzzleSelected.map(i=>mixed[i]).join(' ')===ordered.join(' '))state.notice='';render();return;}
   if(a==='journey-next') { journeyNext(); return; }
   if(a==='journey-prev') {const j=state.journey;const i=journeyStages.indexOf(j.step);if(i>0){if(j.step==='writing')j.draft=document.querySelector('#journey-draft')?.value||j.draft;j.step=journeyStages[i-1];j.answerChoice=null;j.answerChecked=false;j.hintLevel=0;j.puzzleSelected=[];j.puzzleChecked=false;render();window.scrollTo(0,0);}return;}
   if(a==='journey-save-writing') {const draft=document.querySelector('#journey-draft')?.value||'';state.journey.draft=draft;state.journey.saved=true;localStorage.setItem('korean-journey-draft-'+state.unit.unitId,draft);render();return;}
@@ -210,6 +210,7 @@ function journeyNext(){
     const {ordered,mixed}=puzzleTokens(state.unit,j.step);
     if(!j.puzzleChecked||j.puzzleSelected.map(i=>mixed[i]).join(' ')!==ordered.join(' ')){state.notice=t(state.language,'puzzleFirst');render();return;}
   }
+  state.notice='';
   if(j.step==='quiz'&&j.quizIndex<state.unit.quiz.length-1){if(!state.explore)reward('quiz:'+state.unit.unitId+':'+j.quizIndex,5);j.quizIndex++;j.answerChoice=null;j.answerChecked=false;j.hintLevel=0;render();return;}
   if(j.step==='quiz'){if(!state.explore)reward('quiz:'+state.unit.unitId+':'+j.quizIndex,5);finish();return;}
   if(j.step==='writing'){const draft=document.querySelector('#journey-draft')?.value||'';j.draft=draft;localStorage.setItem('korean-journey-draft-'+state.unit.unitId,draft);}
