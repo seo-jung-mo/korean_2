@@ -1,0 +1,419 @@
+{
+  "unitId": "u10",
+  "title": "건강",
+  "kind": "lesson",
+  "subtitle": "몸 상태를 말하고 조언해요.",
+  "learningOverview": {
+    "goals": [
+      "몸의 상태와 아픈 곳을 설명할 수 있어요.",
+      "건강을 위한 행동을 권하거나 하지 말라고 조언할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 몸과 건강",
+      "문법: -지 말다, -(으)ㄴ 후에"
+    ],
+    "plan": [
+      "몸과 건강 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "몸 상태를 묻고 건강 조언하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u10-v01",
+      "ko": "건강",
+      "romanization": "",
+      "meaning": "health",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u10-v02",
+      "ko": "머리",
+      "romanization": "",
+      "meaning": "head",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u10-v03",
+      "ko": "배",
+      "romanization": "",
+      "meaning": "stomach",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u10-v06",
+      "ko": "얼굴",
+      "romanization": "",
+      "meaning": "face",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v07",
+      "ko": "눈",
+      "romanization": "",
+      "meaning": "eye",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v08",
+      "ko": "코",
+      "romanization": "",
+      "meaning": "nose",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v09",
+      "ko": "입",
+      "romanization": "",
+      "meaning": "mouth",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v10",
+      "ko": "귀",
+      "romanization": "",
+      "meaning": "ear",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v11",
+      "ko": "목",
+      "romanization": "",
+      "meaning": "throat or neck",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v12",
+      "ko": "팔",
+      "romanization": "",
+      "meaning": "arm",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v13",
+      "ko": "다리",
+      "romanization": "",
+      "meaning": "leg",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v04",
+      "ko": "아프다",
+      "romanization": "",
+      "meaning": "to hurt / be sick",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u10-v05",
+      "ko": "약",
+      "romanization": "",
+      "meaning": "medicine",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u10-v14",
+      "ko": "감기에 걸리다",
+      "romanization": "",
+      "meaning": "to catch a cold",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v15",
+      "ko": "열이 나다",
+      "romanization": "",
+      "meaning": "to have a fever",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v16",
+      "ko": "기침을 하다",
+      "romanization": "",
+      "meaning": "to cough",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v17",
+      "ko": "몸이 안 좋다",
+      "romanization": "",
+      "meaning": "to feel unwell",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v18",
+      "ko": "낫다",
+      "romanization": "",
+      "meaning": "to get better",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u10-v19",
+      "ko": "건강하다",
+      "romanization": "",
+      "meaning": "to be healthy",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u10-g01",
+      "pattern": "-지 말다",
+      "explanation": "어떤 행동을 하지 말라고 조언할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "오늘은 늦게 자지 마세요.",
+          "meaning": "Please do not go to bed late today."
+        },
+        {
+          "ko": "몸이 안 좋으면 무리하지 마세요.",
+          "meaning": "If you feel unwell, do not overexert yourself."
+        }
+      ],
+      "details": {
+        "form": "동사 어간 + -지 마세요",
+        "usage": "상대에게 어떤 행동을 하지 말라고 조언하거나 부탁합니다.",
+        "watchOut": "‘가지 마세요’처럼 동사 뒤에 붙입니다. ‘못’과 의미가 다릅니다."
+      }
+    },
+    {
+      "id": "u10-g02",
+      "pattern": "-(으)ㄴ 후에",
+      "explanation": "한 일이 끝난 다음에 하는 일을 말해요.",
+      "examples": [
+        {
+          "ko": "밥을 먹은 후에 약을 드세요.",
+          "meaning": "Take the medicine after eating."
+        },
+        {
+          "ko": "운동한 후에 물을 마셔요.",
+          "meaning": "I drink water after exercising."
+        }
+      ],
+      "details": {
+        "form": "동사 어간: 받침 없으면 -ㄴ 후에, 받침 있으면 -은 후에",
+        "usage": "한 일이 끝난 다음에 다른 일을 한다고 말합니다.",
+        "watchOut": "순서를 분명히 합니다. 앞의 일이 먼저 끝납니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "아린",
+        "text": "얼굴이 안 좋아 보여요. 어디 아파요?",
+        "meaning": "You do not look well. Are you sick?"
+      },
+      {
+        "speaker": "현수",
+        "text": "네, 머리가 조금 아파요.",
+        "meaning": "Yes, I have a slight headache."
+      },
+      {
+        "speaker": "아린",
+        "text": "물을 마시고 푹 쉬세요.",
+        "meaning": "Drink some water and get plenty of rest."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u10-q01",
+      "type": "multiple-choice",
+      "question": "‘건강’의 뜻은 무엇인가요?",
+      "choices": [
+        "health",
+        "head",
+        "stomach"
+      ],
+      "answer": 0,
+      "explanation": "‘건강’는 ‘health’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘health’이에요."
+      ]
+    },
+    {
+      "id": "u10-q02",
+      "type": "multiple-choice",
+      "question": "‘-지 말다’를 사용한 문장은?",
+      "choices": [
+        "오늘은 늦게 자지 마세요.",
+        "밥을 먹은 후에 약을 드세요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘오늘은 늦게 자지 마세요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘오늘은 늦게 자지 마세요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "건강",
+          "health"
+        ],
+        [
+          "머리",
+          "head"
+        ],
+        [
+          "배",
+          "stomach"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "건강 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "아린",
+        "text": "약은 드셨어요?",
+        "meaning": "Did you take medicine?"
+      },
+      {
+        "speaker": "현수",
+        "text": "아직 안 먹었어요. 밥을 먹은 후에 먹을 거예요.",
+        "meaning": "Not yet. I will take it after eating."
+      },
+      {
+        "speaker": "아린",
+        "text": "네, 오늘은 무리하지 마세요.",
+        "meaning": "Okay, do not overdo it today."
+      }
+    ]
+  },
+  "listening": {
+    "script": "목이 아파서 병원에 갔어요. 의사가 물을 많이 마시고 푹 쉬라고 했어요. 약은 밥을 먹은 후에 먹어요.",
+    "question": {
+      "id": "u10-listen",
+      "type": "multiple-choice",
+      "question": "약은 언제 먹어요?",
+      "choices": [
+        "밥을 먹은 후에",
+        "밥을 먹기 전에",
+        "잠자기 전에"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘밥을 먹은 후에’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "몸이 아픈 친구에게 두 가지 건강 조언을 해 보세요."
+  },
+  "reading": {
+    "text": "준서는 요즘 밤늦게까지 일했어요. 그래서 아침마다 피곤했어요. 오늘은 일을 일찍 끝내고 집에서 쉬려고 해요. 저녁을 먹은 후에 따뜻한 차를 마실 거예요.",
+    "question": {
+      "id": "u10-read",
+      "type": "multiple-choice",
+      "question": "준서는 왜 피곤했어요?",
+      "choices": [
+        "밤늦게까지 일해서",
+        "운동을 많이 해서",
+        "여행을 해서"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘밤늦게까지 일해서’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "건강을 위해 하는 습관과 하지 말아야 할 일을 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u10-practice1",
+        "type": "multiple-choice",
+        "question": "현수는 어디가 아파요?",
+        "choices": [
+          "머리",
+          "다리",
+          "배"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘머리’예요."
+        ]
+      },
+      "sentence": "얼굴이 안 좋아 보여요. 어디 아파요?"
+    },
+    "two": {
+      "question": {
+        "id": "u10-practice2",
+        "type": "multiple-choice",
+        "question": "현수는 언제 약을 먹을 거예요?",
+        "choices": [
+          "밥을 먹은 후에",
+          "밥을 먹기 전에",
+          "잠을 자기 전에"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘밥을 먹은 후에’예요."
+        ]
+      },
+      "sentence": "약은 드셨어요?"
+    }
+  }
+}

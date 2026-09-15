@@ -1,0 +1,383 @@
+{
+  "unitId": "u04",
+  "title": "교통",
+  "kind": "lesson",
+  "subtitle": "교통수단과 걸리는 시간을 이야기해요.",
+  "learningOverview": {
+    "goals": [
+      "교통수단을 이용하는 방법을 말할 수 있어요.",
+      "출발지에서 목적지까지 걸리는 시간을 설명할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 교통수단과 이동",
+      "문법: 이/가 걸리다, -에서 -까지"
+    ],
+    "plan": [
+      "교통수단과 이동 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "이동 방법과 걸리는 시간 말하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u04-v01",
+      "ko": "버스",
+      "romanization": "",
+      "meaning": "bus",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u04-v02",
+      "ko": "지하철",
+      "romanization": "",
+      "meaning": "subway",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u04-v03",
+      "ko": "택시",
+      "romanization": "",
+      "meaning": "taxi",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u04-v06",
+      "ko": "기차",
+      "romanization": "",
+      "meaning": "train",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v07",
+      "ko": "비행기",
+      "romanization": "",
+      "meaning": "airplane",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v08",
+      "ko": "타다",
+      "romanization": "",
+      "meaning": "to ride",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v09",
+      "ko": "내리다",
+      "romanization": "",
+      "meaning": "to get off",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v10",
+      "ko": "갈아타다",
+      "romanization": "",
+      "meaning": "to transfer",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v04",
+      "ko": "시간",
+      "romanization": "",
+      "meaning": "time",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u04-v05",
+      "ko": "걸리다",
+      "romanization": "",
+      "meaning": "to take (time)",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u04-v11",
+      "ko": "타고 가다",
+      "romanization": "",
+      "meaning": "to go by vehicle",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v12",
+      "ko": "타고 오다",
+      "romanization": "",
+      "meaning": "to come by vehicle",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v13",
+      "ko": "타고 다니다",
+      "romanization": "",
+      "meaning": "to commute by vehicle",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v14",
+      "ko": "정류장",
+      "romanization": "",
+      "meaning": "bus stop",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u04-v15",
+      "ko": "역",
+      "romanization": "",
+      "meaning": "station",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u04-g01",
+      "pattern": "이/가 걸리다",
+      "explanation": "어떤 일을 하는 데 필요한 시간을 말할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "역까지 십 분이 걸려요.",
+          "meaning": "It takes ten minutes to the station."
+        },
+        {
+          "ko": "집에서 역까지 십 분이 걸려요.",
+          "meaning": "It takes ten minutes from home to the station."
+        }
+      ],
+      "details": {
+        "form": "시간 + 이/가 걸리다",
+        "usage": "어떤 곳에 가거나 일을 끝내는 데 필요한 시간을 말합니다.",
+        "watchOut": "‘어디에 가요?’가 아니라 ‘얼마나 걸려요?’가 걸리는 시간을 묻는 질문입니다."
+      }
+    },
+    {
+      "id": "u04-g02",
+      "pattern": "-에서 -까지",
+      "explanation": "출발하는 곳과 도착하는 곳을 함께 말할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "집에서 학교까지 지하철을 타요.",
+          "meaning": "I take the subway from home to school."
+        },
+        {
+          "ko": "학교에서 공원까지 걸어가요.",
+          "meaning": "I walk from school to the park."
+        }
+      ],
+      "details": {
+        "form": "출발 장소 + 에서, 도착 장소 + 까지",
+        "usage": "이동의 시작점과 끝점을 함께 나타냅니다.",
+        "watchOut": "시간의 시작을 말할 때는 보통 ‘부터’를 씁니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "리나",
+        "text": "도서관까지 어떻게 가요?",
+        "meaning": "How do you get to the library?"
+      },
+      {
+        "speaker": "도윤",
+        "text": "버스를 타요. 여기에서 십오 분쯤 걸려요.",
+        "meaning": "I take a bus. It takes about fifteen minutes from here."
+      },
+      {
+        "speaker": "리나",
+        "text": "그럼 버스 정류장으로 갈게요.",
+        "meaning": "Then I will go to the bus stop."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u04-q01",
+      "type": "multiple-choice",
+      "question": "‘버스’의 뜻은 무엇인가요?",
+      "choices": [
+        "bus",
+        "subway",
+        "taxi"
+      ],
+      "answer": 0,
+      "explanation": "‘버스’는 ‘bus’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘bus’이에요."
+      ]
+    },
+    {
+      "id": "u04-q02",
+      "type": "multiple-choice",
+      "question": "‘이/가 걸리다’를 사용한 문장은?",
+      "choices": [
+        "역까지 십 분이 걸려요.",
+        "집에서 학교까지 지하철을 타요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘역까지 십 분이 걸려요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘역까지 십 분이 걸려요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "버스",
+          "bus"
+        ],
+        [
+          "지하철",
+          "subway"
+        ],
+        [
+          "택시",
+          "taxi"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "교통 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "리나",
+        "text": "지하철은 오래 걸려요?",
+        "meaning": "Does the subway take long?"
+      },
+      {
+        "speaker": "도윤",
+        "text": "여기에서 도서관까지 이십 분이 걸려요. 버스가 조금 빨라요.",
+        "meaning": "It takes twenty minutes from here to the library. The bus is a little faster."
+      },
+      {
+        "speaker": "리나",
+        "text": "그럼 버스를 탈게요.",
+        "meaning": "Then I will take the bus."
+      }
+    ]
+  },
+  "listening": {
+    "script": "학교에서 박물관까지 버스로 삼십 분이 걸려요. 지하철은 이십 분이 걸려요. 저는 지하철을 탈 거예요.",
+    "question": {
+      "id": "u04-listen",
+      "type": "multiple-choice",
+      "question": "더 빨리 가는 교통수단은?",
+      "choices": [
+        "지하철",
+        "버스",
+        "택시"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘지하철’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "집에서 자주 가는 곳까지 어떻게 가고 얼마나 걸리는지 말해 보세요."
+  },
+  "reading": {
+    "text": "저는 아침에 집에서 회사까지 지하철을 타요. 지하철역은 집에서 걸어서 오 분이에요. 지하철을 타면 회사까지 이십오 분이 걸려요. 비가 오는 날에는 역까지 버스를 타기도 해요.",
+    "question": {
+      "id": "u04-read",
+      "type": "multiple-choice",
+      "question": "집에서 역까지 걸어서 얼마나 걸려요?",
+      "choices": [
+        "오 분",
+        "이십오 분",
+        "한 시간"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘오 분’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "자신이 자주 이용하는 교통수단과 걸리는 시간을 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u04-practice1",
+        "type": "multiple-choice",
+        "question": "도윤은 도서관까지 무엇을 타고 가요?",
+        "choices": [
+          "버스",
+          "택시",
+          "비행기"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘버스’예요."
+        ]
+      },
+      "sentence": "도서관까지 어떻게 가요?"
+    },
+    "two": {
+      "question": {
+        "id": "u04-practice2",
+        "type": "multiple-choice",
+        "question": "지하철로 도서관까지 얼마나 걸려요?",
+        "choices": [
+          "이십 분",
+          "십 분",
+          "한 시간"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘이십 분’예요."
+        ]
+      },
+      "sentence": "지하철은 오래 걸려요?"
+    }
+  }
+}

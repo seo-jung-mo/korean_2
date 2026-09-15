@@ -1,0 +1,374 @@
+{
+  "unitId": "u13",
+  "title": "기분과 감정",
+  "kind": "lesson",
+  "subtitle": "기분을 말하고 기분을 바꾸는 방법을 나눠요.",
+  "learningOverview": {
+    "goals": [
+      "자신의 기분과 감정을 표현할 수 있어요.",
+      "어떤 기분일 때 하는 일을 말할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 기분과 감정",
+      "문법: -(으)ㄹ 때, -(으)러 가다"
+    ],
+    "plan": [
+      "기분과 감정 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "기분과 기분 전환 방법 이야기하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u13-v01",
+      "ko": "기분",
+      "romanization": "",
+      "meaning": "mood",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u13-v02",
+      "ko": "감정",
+      "romanization": "",
+      "meaning": "emotion",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u13-v03",
+      "ko": "기쁘다",
+      "romanization": "",
+      "meaning": "to be happy",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u13-v06",
+      "ko": "기분이 좋다",
+      "romanization": "",
+      "meaning": "to feel good",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v07",
+      "ko": "기분이 나쁘다",
+      "romanization": "",
+      "meaning": "to feel bad",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v08",
+      "ko": "슬프다",
+      "romanization": "",
+      "meaning": "to be sad",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v09",
+      "ko": "행복하다",
+      "romanization": "",
+      "meaning": "to be happy",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v04",
+      "ko": "외롭다",
+      "romanization": "",
+      "meaning": "to be lonely",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u13-v05",
+      "ko": "스트레스",
+      "romanization": "",
+      "meaning": "stress",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u13-v10",
+      "ko": "기분 전환을 하다",
+      "romanization": "",
+      "meaning": "to refresh oneself",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v11",
+      "ko": "공연을 보다",
+      "romanization": "",
+      "meaning": "to see a performance",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v12",
+      "ko": "수다를 떨다",
+      "romanization": "",
+      "meaning": "to chat",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v13",
+      "ko": "바람을 쐬다",
+      "romanization": "",
+      "meaning": "to get fresh air",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u13-v14",
+      "ko": "맛있는 것을 먹다",
+      "romanization": "",
+      "meaning": "to eat something tasty",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u13-g01",
+      "pattern": "-(으)ㄹ 때",
+      "explanation": "어떤 일이 일어나는 시간이나 상황을 말해요.",
+      "examples": [
+        {
+          "ko": "기분이 안 좋을 때 산책해요.",
+          "meaning": "I take a walk when I feel down."
+        },
+        {
+          "ko": "기분이 좋을 때 노래를 들어요.",
+          "meaning": "I listen to music when I am happy."
+        }
+      ],
+      "details": {
+        "form": "어간: 받침 없거나 ㄹ 받침 → -ㄹ 때, 다른 받침 → -을 때",
+        "usage": "어떤 상황이나 시간이 일어날 때 하는 행동을 말합니다.",
+        "watchOut": "‘때’ 앞의 표현을 한 덩어리로 읽어 보세요."
+      }
+    },
+    {
+      "id": "u13-g02",
+      "pattern": "-(으)러 가다",
+      "explanation": "어떤 장소에 가는 목적을 말해요.",
+      "examples": [
+        {
+          "ko": "친구를 만나러 카페에 가요.",
+          "meaning": "I go to a café to meet a friend."
+        },
+        {
+          "ko": "친구를 만나러 도서관에 가요.",
+          "meaning": "I go to the library to meet a friend."
+        }
+      ],
+      "details": {
+        "form": "동사 어간: 받침 없거나 ㄹ 받침 → -러, 다른 받침 → -으러 + 가다",
+        "usage": "어떤 일을 하기 위해 장소로 이동한다고 말합니다.",
+        "watchOut": "앞에는 목적이 되는 행동, 뒤에는 가다·오다 같은 이동 동사가 옵니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "보라",
+        "text": "요즘 스트레스가 많아요.",
+        "meaning": "I have a lot of stress these days."
+      },
+      {
+        "speaker": "태오",
+        "text": "기분이 안 좋을 때 무엇을 해요?",
+        "meaning": "What do you do when you feel down?"
+      },
+      {
+        "speaker": "보라",
+        "text": "공원에 걸으러 가요. 그러면 기분이 좋아져요.",
+        "meaning": "I go to the park to walk. Then I feel better."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u13-q01",
+      "type": "multiple-choice",
+      "question": "‘기분’의 뜻은 무엇인가요?",
+      "choices": [
+        "mood",
+        "emotion",
+        "to be happy"
+      ],
+      "answer": 0,
+      "explanation": "‘기분’는 ‘mood’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘mood’이에요."
+      ]
+    },
+    {
+      "id": "u13-q02",
+      "type": "multiple-choice",
+      "question": "‘-(으)ㄹ 때’를 사용한 문장은?",
+      "choices": [
+        "기분이 안 좋을 때 산책해요.",
+        "친구를 만나러 카페에 가요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘기분이 안 좋을 때 산책해요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘기분이 안 좋을 때 산책해요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "기분",
+          "mood"
+        ],
+        [
+          "감정",
+          "emotion"
+        ],
+        [
+          "기쁘다",
+          "to be happy"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "기분과 감정 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "보라",
+        "text": "스트레스가 많을 때 음악도 들어요?",
+        "meaning": "Do you listen to music when stressed?"
+      },
+      {
+        "speaker": "태오",
+        "text": "네, 좋아하는 노래를 들어요. 가끔 친구를 만나러 가요.",
+        "meaning": "Yes, I listen to songs I like. Sometimes I go to meet a friend."
+      },
+      {
+        "speaker": "보라",
+        "text": "저도 오늘 친구를 만나러 갈래요.",
+        "meaning": "I want to go meet a friend today too."
+      }
+    ]
+  },
+  "listening": {
+    "script": "시험이 끝나서 오늘은 기분이 좋아요. 친구를 만나러 갈 거예요. 같이 저녁을 먹고 산책도 할 거예요.",
+    "question": {
+      "id": "u13-listen",
+      "type": "multiple-choice",
+      "question": "오늘 기분이 좋은 이유는?",
+      "choices": [
+        "시험이 끝나서",
+        "친구가 아파서",
+        "비가 와서"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘시험이 끝나서’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "기분이 좋을 때와 좋지 않을 때 각각 무엇을 하는지 말해 보세요."
+  },
+  "reading": {
+    "text": "지민은 어제 일이 많아서 기분이 좋지 않았어요. 저녁에 좋아하는 음악을 듣고 공원에 걸으러 갔어요. 잠깐 쉬고 나니 마음이 편해졌어요. 오늘은 친구에게도 안부를 물었어요.",
+    "question": {
+      "id": "u13-read",
+      "type": "multiple-choice",
+      "question": "지민은 기분을 바꾸려고 어디에 갔어요?",
+      "choices": [
+        "공원",
+        "회사",
+        "식당"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘공원’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "최근의 기분과 그럴 때 한 행동을 4문장으로 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u13-practice1",
+        "type": "multiple-choice",
+        "question": "보라는 요즘 무엇이 많아요?",
+        "choices": [
+          "스트레스",
+          "여행 계획",
+          "시간"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘스트레스’예요."
+        ]
+      },
+      "sentence": "요즘 스트레스가 많아요."
+    },
+    "two": {
+      "question": {
+        "id": "u13-practice2",
+        "type": "multiple-choice",
+        "question": "태오는 가끔 누구를 만나러 가요?",
+        "choices": [
+          "친구",
+          "선생님",
+          "가족"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘친구’예요."
+        ]
+      },
+      "sentence": "스트레스가 많을 때 음악도 들어요?"
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "unitId": "u05",
+  "title": "길 찾기",
+  "kind": "lesson",
+  "subtitle": "위치를 묻고 길을 안내해 봐요.",
+  "learningOverview": {
+    "goals": [
+      "장소의 위치와 가는 길을 물을 수 있어요.",
+      "방향과 이동 순서를 사용해 길을 안내할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 방향과 위치",
+      "문법: (으)로, -아/어서"
+    ],
+    "plan": [
+      "방향과 위치 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "길을 묻고 목적지까지 안내하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u05-v01",
+      "ko": "오른쪽",
+      "romanization": "",
+      "meaning": "right side",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u05-v02",
+      "ko": "왼쪽",
+      "romanization": "",
+      "meaning": "left side",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u05-v03",
+      "ko": "똑바로",
+      "romanization": "",
+      "meaning": "straight ahead",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u05-v06",
+      "ko": "이쪽",
+      "romanization": "",
+      "meaning": "this way",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v07",
+      "ko": "저쪽",
+      "romanization": "",
+      "meaning": "that way",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v04",
+      "ko": "건너다",
+      "romanization": "",
+      "meaning": "to cross",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u05-v05",
+      "ko": "건물",
+      "romanization": "",
+      "meaning": "building",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u05-v08",
+      "ko": "올라가다",
+      "romanization": "",
+      "meaning": "to go up",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v09",
+      "ko": "내려가다",
+      "romanization": "",
+      "meaning": "to go down",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v10",
+      "ko": "나가다",
+      "romanization": "",
+      "meaning": "to go out",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v11",
+      "ko": "들어가다",
+      "romanization": "",
+      "meaning": "to go in",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u05-v12",
+      "ko": "지나다",
+      "romanization": "",
+      "meaning": "to pass by",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u05-g01",
+      "pattern": "(으)로",
+      "explanation": "이동하는 방향을 나타낼 때 사용해요.",
+      "examples": [
+        {
+          "ko": "이 길로 계속 가세요.",
+          "meaning": "Please keep going along this road."
+        },
+        {
+          "ko": "다음 길에서 왼쪽으로 도세요.",
+          "meaning": "Turn left at the next road."
+        }
+      ],
+      "details": {
+        "form": "받침 없거나 ㄹ 받침 → 로, 다른 받침 → 으로",
+        "usage": "움직이는 방향이나 목적지 쪽을 나타냅니다.",
+        "watchOut": "정확한 도착 위치보다 ‘어느 방향으로’ 움직이는지에 초점을 둡니다."
+      }
+    },
+    {
+      "id": "u05-g02",
+      "pattern": "-아/어서",
+      "explanation": "순서대로 이어지는 동작을 말할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "길을 건너서 왼쪽으로 가세요.",
+          "meaning": "Cross the road and go left."
+        },
+        {
+          "ko": "문을 열어서 안으로 들어가세요.",
+          "meaning": "Open the door and go inside."
+        }
+      ],
+      "details": {
+        "form": "어간의 끝 모음 ㅏ·ㅗ → -아서, 그 밖 → -어서, 하다 → 해서",
+        "usage": "앞의 동작을 한 뒤 이어서 하는 동작을 연결합니다.",
+        "watchOut": "두 행동이 자연스럽게 이어지는 순서를 나타냅니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "유진",
+        "text": "미술관이 어디에 있어요?",
+        "meaning": "Where is the art museum?"
+      },
+      {
+        "speaker": "현우",
+        "text": "앞으로 쭉 가서 오른쪽으로 도세요.",
+        "meaning": "Go straight ahead and turn right."
+      },
+      {
+        "speaker": "유진",
+        "text": "오른쪽 건물인가요? 고마워요.",
+        "meaning": "Is it the building on the right? Thank you."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u05-q01",
+      "type": "multiple-choice",
+      "question": "‘오른쪽’의 뜻은 무엇인가요?",
+      "choices": [
+        "right side",
+        "left side",
+        "straight ahead"
+      ],
+      "answer": 0,
+      "explanation": "‘오른쪽’는 ‘right side’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘right side’이에요."
+      ]
+    },
+    {
+      "id": "u05-q02",
+      "type": "multiple-choice",
+      "question": "‘(으)로’를 사용한 문장은?",
+      "choices": [
+        "이 길로 계속 가세요.",
+        "길을 건너서 왼쪽으로 가세요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘이 길로 계속 가세요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘이 길로 계속 가세요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "오른쪽",
+          "right side"
+        ],
+        [
+          "왼쪽",
+          "left side"
+        ],
+        [
+          "똑바로",
+          "straight ahead"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "길 찾기 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "유진",
+        "text": "미술관 앞에 카페도 있어요?",
+        "meaning": "Is there a café in front of the museum too?"
+      },
+      {
+        "speaker": "현우",
+        "text": "네, 길을 건너서 왼쪽으로 가면 있어요.",
+        "meaning": "Yes, cross the road and go left."
+      },
+      {
+        "speaker": "유진",
+        "text": "미술관을 본 후에 가 볼게요.",
+        "meaning": "I will visit after seeing the museum."
+      }
+    ]
+  },
+  "listening": {
+    "script": "버스 정류장에서 똑바로 가세요. 첫 번째 사거리에서 오른쪽으로 도세요. 약국 옆에 도서관이 있어요.",
+    "question": {
+      "id": "u05-listen",
+      "type": "multiple-choice",
+      "question": "도서관은 무엇 옆에 있어요?",
+      "choices": [
+        "약국",
+        "학교",
+        "은행"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘약국’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "가까운 가게나 학교까지 가는 길을 오른쪽·왼쪽을 써서 알려 주세요."
+  },
+  "reading": {
+    "text": "새 도서관은 지하철역에서 가까워요. 역의 2번 출구로 나와서 똑바로 걸으세요. 작은 다리를 건넌 뒤 왼쪽으로 도세요. 공원 옆의 흰 건물이 도서관이에요.",
+    "question": {
+      "id": "u05-read",
+      "type": "multiple-choice",
+      "question": "다리를 건넌 뒤 어느 쪽으로 돌아요?",
+      "choices": [
+        "왼쪽",
+        "오른쪽",
+        "뒤쪽"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘왼쪽’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "역에서 자신이 좋아하는 장소까지 가는 길을 순서대로 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u05-practice1",
+        "type": "multiple-choice",
+        "question": "미술관을 가려면 먼저 어느 쪽으로 가요?",
+        "choices": [
+          "똑바로 가요.",
+          "왼쪽으로 가요.",
+          "뒤로 돌아요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘똑바로 가요.’예요."
+        ]
+      },
+      "sentence": "미술관이 어디에 있어요?"
+    },
+    "two": {
+      "question": {
+        "id": "u05-practice2",
+        "type": "multiple-choice",
+        "question": "카페에 가려면 길을 건넌 뒤 어디로 가요?",
+        "choices": [
+          "왼쪽",
+          "오른쪽",
+          "똑바로"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘왼쪽’예요."
+        ]
+      },
+      "sentence": "미술관 앞에 카페도 있어요?"
+    }
+  }
+}

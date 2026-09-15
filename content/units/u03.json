@@ -1,0 +1,383 @@
+{
+  "unitId": "u03",
+  "title": "음식",
+  "kind": "lesson",
+  "subtitle": "음식의 맛을 이야기하고 주문해 봐요.",
+  "learningOverview": {
+    "goals": [
+      "음식의 맛과 특징을 설명할 수 있어요.",
+      "먹고 싶은 음식을 묻고 주문할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 음식과 맛",
+      "문법: -(으)ㄹ래요, 무슨"
+    ],
+    "plan": [
+      "음식과 맛 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "식당에서 음식과 음료 주문하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u03-v01",
+      "ko": "음식",
+      "romanization": "",
+      "meaning": "food",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u03-v02",
+      "ko": "맛",
+      "romanization": "",
+      "meaning": "taste",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u03-v03",
+      "ko": "비빔밥",
+      "romanization": "",
+      "meaning": "bibimbap",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u03-v06",
+      "ko": "불고기",
+      "romanization": "",
+      "meaning": "bulgogi",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v07",
+      "ko": "설렁탕",
+      "romanization": "",
+      "meaning": "beef bone soup",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v08",
+      "ko": "삼계탕",
+      "romanization": "",
+      "meaning": "ginseng chicken soup",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v09",
+      "ko": "갈비",
+      "romanization": "",
+      "meaning": "short ribs",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v10",
+      "ko": "김치찌개",
+      "romanization": "",
+      "meaning": "kimchi stew",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v04",
+      "ko": "국수",
+      "romanization": "",
+      "meaning": "noodles",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u03-v05",
+      "ko": "맵다",
+      "romanization": "",
+      "meaning": "to be spicy",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u03-v11",
+      "ko": "된장찌개",
+      "romanization": "",
+      "meaning": "soybean paste stew",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v12",
+      "ko": "냉면",
+      "romanization": "",
+      "meaning": "cold noodles",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v13",
+      "ko": "김밥",
+      "romanization": "",
+      "meaning": "gimbap",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v14",
+      "ko": "라면",
+      "romanization": "",
+      "meaning": "instant noodles",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u03-v15",
+      "ko": "떡볶이",
+      "romanization": "",
+      "meaning": "spicy rice cakes",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u03-g01",
+      "pattern": "-(으)ㄹ래요",
+      "explanation": "먹거나 마시고 싶은 것을 묻거나 말할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "저는 따뜻한 국수를 먹을래요.",
+          "meaning": "I would like to eat warm noodles."
+        },
+        {
+          "ko": "오늘은 따뜻한 차를 마실래요.",
+          "meaning": "I would like to drink warm tea today."
+        }
+      ],
+      "details": {
+        "form": "받침 없거나 ㄹ 받침 → -ㄹ래요, 다른 받침 → -을래요",
+        "usage": "하고 싶은 일을 말하거나 상대의 의향을 묻습니다.",
+        "watchOut": "명령보다는 선택과 의향을 묻는 느낌입니다."
+      }
+    },
+    {
+      "id": "u03-g02",
+      "pattern": "무슨",
+      "explanation": "종류를 물을 때 명사 앞에 사용해요.",
+      "examples": [
+        {
+          "ko": "무슨 음식을 좋아해요?",
+          "meaning": "What kind of food do you like?"
+        },
+        {
+          "ko": "무슨 영화를 보고 싶어요?",
+          "meaning": "What kind of movie do you want to watch?"
+        }
+      ],
+      "details": {
+        "form": "무슨 + 명사",
+        "usage": "종류나 내용을 모를 때 명사 앞에 놓아 묻습니다.",
+        "watchOut": "‘무엇’은 명사처럼 쓰고, ‘무슨’은 뒤에 명사가 필요합니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "지수",
+        "text": "점심에 무슨 음식을 먹을래요?",
+        "meaning": "What food would you like for lunch?"
+      },
+      {
+        "speaker": "에밀",
+        "text": "저는 비빔밥을 먹을래요. 많이 매워요?",
+        "meaning": "I would like bibimbap. Is it very spicy?"
+      },
+      {
+        "speaker": "지수",
+        "text": "조금 매워요. 덜 맵게 해 달라고 할 수 있어요.",
+        "meaning": "It is a little spicy. You can ask for it to be less spicy."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u03-q01",
+      "type": "multiple-choice",
+      "question": "‘음식’의 뜻은 무엇인가요?",
+      "choices": [
+        "food",
+        "taste",
+        "bibimbap"
+      ],
+      "answer": 0,
+      "explanation": "‘음식’는 ‘food’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘food’이에요."
+      ]
+    },
+    {
+      "id": "u03-q02",
+      "type": "multiple-choice",
+      "question": "‘-(으)ㄹ래요’를 사용한 문장은?",
+      "choices": [
+        "저는 따뜻한 국수를 먹을래요.",
+        "무슨 음식을 좋아해요?",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘저는 따뜻한 국수를 먹을래요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘저는 따뜻한 국수를 먹을래요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "음식",
+          "food"
+        ],
+        [
+          "맛",
+          "taste"
+        ],
+        [
+          "비빔밥",
+          "bibimbap"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "음식 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "지수",
+        "text": "음료는 무엇을 마실래요?",
+        "meaning": "What would you like to drink?"
+      },
+      {
+        "speaker": "에밀",
+        "text": "따뜻한 차를 마실래요. 매운 음식을 먹어서 목이 말라요.",
+        "meaning": "I would like warm tea. I am thirsty after spicy food."
+      },
+      {
+        "speaker": "지수",
+        "text": "저도 같은 것으로 주문할게요.",
+        "meaning": "I will order the same."
+      }
+    ]
+  },
+  "listening": {
+    "script": "오늘 점심에는 국수를 먹을래요. 이 식당의 국수는 맵지 않고 국물이 따뜻해요. 음료는 물을 마실 거예요.",
+    "question": {
+      "id": "u03-listen",
+      "type": "multiple-choice",
+      "question": "점심에 무엇을 먹을래요?",
+      "choices": [
+        "국수",
+        "비빔밥",
+        "김밥"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘국수’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "식당에서 음식과 음료를 하나씩 주문하는 말을 해 보세요."
+  },
+  "reading": {
+    "text": "새로 생긴 작은 식당에 갔어요. 메뉴에는 밥과 국수, 여러 음료가 있었어요. 저는 맵지 않은 국수를 골랐어요. 친구는 채소가 많은 밥을 먹었어요. 둘 다 맛있어서 다음에 또 가기로 했어요.",
+    "question": {
+      "id": "u03-read",
+      "type": "multiple-choice",
+      "question": "친구는 무엇을 먹었어요?",
+      "choices": [
+        "채소가 많은 밥",
+        "맵지 않은 국수",
+        "따뜻한 차"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘채소가 많은 밥’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "좋아하는 음식의 맛과 다음에 주문하고 싶은 음식을 소개해 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u03-practice1",
+        "type": "multiple-choice",
+        "question": "에밀은 점심에 무엇을 먹을래요?",
+        "choices": [
+          "비빔밥",
+          "국수",
+          "불고기"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘비빔밥’예요."
+        ]
+      },
+      "sentence": "점심에 무슨 음식을 먹을래요?"
+    },
+    "two": {
+      "question": {
+        "id": "u03-practice2",
+        "type": "multiple-choice",
+        "question": "에밀은 무엇을 마실래요?",
+        "choices": [
+          "따뜻한 차",
+          "찬 물",
+          "주스"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘따뜻한 차’예요."
+        ]
+      },
+      "sentence": "음료는 무엇을 마실래요?"
+    }
+  }
+}

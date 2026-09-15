@@ -1,0 +1,388 @@
+{
+  "unitId": "u12",
+  "title": "고향",
+  "kind": "lesson",
+  "subtitle": "고향의 모습과 특징을 비교해요.",
+  "learningOverview": {
+    "goals": [
+      "고향의 특징을 소개할 수 있어요.",
+      "고향과 다른 곳을 비교해 말할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 고향과 지역",
+      "문법: -지만, 보다"
+    ],
+    "plan": [
+      "고향과 지역 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "고향을 소개하고 지역 비교하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u12-v01",
+      "ko": "고향",
+      "romanization": "",
+      "meaning": "hometown",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u12-v02",
+      "ko": "도시",
+      "romanization": "",
+      "meaning": "city",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u12-v03",
+      "ko": "시골",
+      "romanization": "",
+      "meaning": "countryside",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u12-v06",
+      "ko": "크다",
+      "romanization": "",
+      "meaning": "to be big",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v07",
+      "ko": "작다",
+      "romanization": "",
+      "meaning": "to be small",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v08",
+      "ko": "복잡하다",
+      "romanization": "",
+      "meaning": "to be crowded or complex",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v09",
+      "ko": "가깝다",
+      "romanization": "",
+      "meaning": "to be near",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v10",
+      "ko": "멀다",
+      "romanization": "",
+      "meaning": "to be far",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v04",
+      "ko": "조용하다",
+      "romanization": "",
+      "meaning": "to be quiet",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u12-v05",
+      "ko": "공기",
+      "romanization": "",
+      "meaning": "air",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u12-v11",
+      "ko": "살기 좋다",
+      "romanization": "",
+      "meaning": "to be good to live in",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v12",
+      "ko": "분위기가 좋다",
+      "romanization": "",
+      "meaning": "to have a nice atmosphere",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v13",
+      "ko": "높은 건물이 많다",
+      "romanization": "",
+      "meaning": "to have many tall buildings",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v14",
+      "ko": "인기가 많다",
+      "romanization": "",
+      "meaning": "to be popular",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u12-v15",
+      "ko": "전통적인 도시다",
+      "romanization": "",
+      "meaning": "to be a traditional city",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u12-g01",
+      "pattern": "-지만",
+      "explanation": "서로 다른 두 상황을 대조할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "제 고향은 작지만 활기차요.",
+          "meaning": "My hometown is small but lively."
+        },
+        {
+          "ko": "우리 동네는 작지만 편리해요.",
+          "meaning": "My neighborhood is small but convenient."
+        }
+      ],
+      "details": {
+        "form": "동사·형용사 어간 + -지만",
+        "usage": "앞뒤의 내용이 서로 다르거나 반대될 때 사용합니다.",
+        "watchOut": "‘그런데’는 문장 사이의 말이고, ‘-지만’은 앞말에 붙는 어미입니다."
+      }
+    },
+    {
+      "id": "u12-g02",
+      "pattern": "보다",
+      "explanation": "두 대상을 비교할 때 기준 뒤에 붙여요.",
+      "examples": [
+        {
+          "ko": "고향이 이 도시보다 조용해요.",
+          "meaning": "My hometown is quieter than this city."
+        },
+        {
+          "ko": "이 공원은 저 공원보다 넓어요.",
+          "meaning": "This park is wider than that park."
+        }
+      ],
+      "details": {
+        "form": "비교 기준 명사 + 보다",
+        "usage": "둘을 비교할 때 기준이 되는 대상 뒤에 붙입니다.",
+        "watchOut": "‘서울보다 조용해요’는 서울을 기준으로 더 조용하다는 뜻입니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "루카",
+        "text": "고향은 어떤 곳이에요?",
+        "meaning": "What is your hometown like?"
+      },
+      {
+        "speaker": "혜진",
+        "text": "바다 옆에 있는 작은 도시예요.",
+        "meaning": "It is a small city by the sea."
+      },
+      {
+        "speaker": "루카",
+        "text": "여기보다 조용해요?",
+        "meaning": "Is it quieter than here?"
+      },
+      {
+        "speaker": "혜진",
+        "text": "네, 조용하지만 볼거리가 많아요.",
+        "meaning": "Yes, it is quiet, but there is a lot to see."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u12-q01",
+      "type": "multiple-choice",
+      "question": "‘고향’의 뜻은 무엇인가요?",
+      "choices": [
+        "hometown",
+        "city",
+        "countryside"
+      ],
+      "answer": 0,
+      "explanation": "‘고향’는 ‘hometown’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘hometown’이에요."
+      ]
+    },
+    {
+      "id": "u12-q02",
+      "type": "multiple-choice",
+      "question": "‘-지만’를 사용한 문장은?",
+      "choices": [
+        "제 고향은 작지만 활기차요.",
+        "고향이 이 도시보다 조용해요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘제 고향은 작지만 활기차요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘제 고향은 작지만 활기차요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "고향",
+          "hometown"
+        ],
+        [
+          "도시",
+          "city"
+        ],
+        [
+          "시골",
+          "countryside"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "고향 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "루카",
+        "text": "바다는 여기보다 가까워요?",
+        "meaning": "Is the sea closer than here?"
+      },
+      {
+        "speaker": "혜진",
+        "text": "네, 집에서 걸어서 십 분이에요.",
+        "meaning": "Yes, it is ten minutes on foot from my home."
+      },
+      {
+        "speaker": "루카",
+        "text": "그곳에서 살고 싶어요.",
+        "meaning": "I would like to live there."
+      }
+    ]
+  },
+  "listening": {
+    "script": "제 고향은 시골이에요. 도시보다 조용하지만 주말에는 시장이 아주 활기차요. 저는 그 시장을 좋아해요.",
+    "question": {
+      "id": "u12-listen",
+      "type": "multiple-choice",
+      "question": "고향은 도시보다 어때요?",
+      "choices": [
+        "조용해요.",
+        "복잡해요.",
+        "커요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘조용해요.’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "고향과 지금 사는 곳을 두 가지 기준으로 비교해 보세요."
+  },
+  "reading": {
+    "text": "제 고향에는 오래된 강이 있어요. 강 옆에는 작은 공원이 있고 나무가 많아요. 큰 도시보다 조용하지만 버스가 많지 않아요. 그래도 저는 고향의 맑은 공기가 좋아요.",
+    "question": {
+      "id": "u12-read",
+      "type": "multiple-choice",
+      "question": "고향에서 불편한 점은?",
+      "choices": [
+        "버스가 많지 않아요.",
+        "공기가 나빠요.",
+        "나무가 없어요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘버스가 많지 않아요.’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "고향의 좋은 점과 다른 도시와 다른 점을 -지만과 보다로 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u12-practice1",
+        "type": "multiple-choice",
+        "question": "혜진의 고향은 어디 옆에 있어요?",
+        "choices": [
+          "바다",
+          "산",
+          "강"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘바다’예요."
+        ]
+      },
+      "sentence": "고향은 어떤 곳이에요?"
+    },
+    "two": {
+      "question": {
+        "id": "u12-practice2",
+        "type": "multiple-choice",
+        "question": "혜진의 집에서 바다까지 얼마나 걸려요?",
+        "choices": [
+          "걸어서 십 분",
+          "걸어서 한 시간",
+          "버스로 십 분"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘걸어서 십 분’예요."
+        ]
+      },
+      "sentence": "바다는 여기보다 가까워요?"
+    }
+  }
+}

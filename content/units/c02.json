@@ -1,0 +1,34 @@
+{
+  "unitId": "c02",
+  "title": "한국의 대중교통",
+  "kind": "culture",
+  "vocabulary": [],
+  "grammar": [],
+  "dialogue": {
+    "audio": null,
+    "lines": []
+  },
+  "quiz": [],
+  "reading": "한국의 도시에서는 버스와 지하철을 쉽게 볼 수 있어요. 같은 목적지까지 가는 방법이 여러 가지일 수 있으므로 시간과 갈아타는 횟수를 비교하면 좋아요. 길을 잘 모르면 정류장이나 역 이름을 먼저 확인해 보세요.",
+  "comprehension": {
+    "id": "c02-q01",
+    "type": "multiple-choice",
+    "question": "목적지로 가는 방법을 고를 때 비교하면 좋은 것은?",
+    "choices": [
+      "시간과 갈아타는 횟수",
+      "날씨와 옷 색깔",
+      "식당의 메뉴"
+    ],
+    "answer": 0,
+    "explanation": "읽은 내용을 다시 확인해 보세요.",
+    "hint": [
+      "글을 천천히 다시 읽어 보세요.",
+      "첫 번째 선택지를 살펴보세요.",
+      "정답은 첫 번째 선택지예요."
+    ]
+  },
+  "rewards": {
+    "xpOnComplete": 20,
+    "badge": "한국의 대중교통 탐험가"
+  }
+}

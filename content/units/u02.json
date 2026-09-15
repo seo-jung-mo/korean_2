@@ -1,0 +1,401 @@
+{
+  "unitId": "u02",
+  "title": "취미 활동",
+  "kind": "lesson",
+  "subtitle": "좋아하는 일과 자주 하는 일을 말해 봐요.",
+  "learningOverview": {
+    "goals": [
+      "좋아하는 취미와 자주 하는 활동을 이야기할 수 있어요.",
+      "할 수 있는 일과 못하는 일을 말하고 이유를 설명할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 취미 활동",
+      "문법: 못, -아서/어서"
+    ],
+    "plan": [
+      "취미 활동 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "취미를 소개하고 서로 묻고 답하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u02-v01",
+      "ko": "취미",
+      "romanization": "",
+      "meaning": "hobby",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u02-v02",
+      "ko": "자전거",
+      "romanization": "",
+      "meaning": "bicycle",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u02-v03",
+      "ko": "수영",
+      "romanization": "",
+      "meaning": "swimming",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u02-v06",
+      "ko": "배드민턴을 치다",
+      "romanization": "",
+      "meaning": "to play badminton",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v07",
+      "ko": "자전거를 타다",
+      "romanization": "",
+      "meaning": "to ride a bicycle",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v08",
+      "ko": "등산을 하다",
+      "romanization": "",
+      "meaning": "to hike",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v09",
+      "ko": "낚시를 하다",
+      "romanization": "",
+      "meaning": "to fish",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v10",
+      "ko": "피아노를 치다",
+      "romanization": "",
+      "meaning": "to play piano",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v11",
+      "ko": "게임을 하다",
+      "romanization": "",
+      "meaning": "to play games",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v04",
+      "ko": "자주",
+      "romanization": "",
+      "meaning": "often",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u02-v05",
+      "ko": "피아노",
+      "romanization": "",
+      "meaning": "piano",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u02-v12",
+      "ko": "언제나",
+      "romanization": "",
+      "meaning": "always",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v13",
+      "ko": "항상",
+      "romanization": "",
+      "meaning": "always",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v14",
+      "ko": "가끔",
+      "romanization": "",
+      "meaning": "sometimes",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v15",
+      "ko": "별로",
+      "romanization": "",
+      "meaning": "not much",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v16",
+      "ko": "거의",
+      "romanization": "",
+      "meaning": "almost",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u02-v17",
+      "ko": "전혀",
+      "romanization": "",
+      "meaning": "not at all",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u02-g01",
+      "pattern": "못",
+      "explanation": "동사 앞에 놓아 할 수 없거나 하지 못하는 일을 말해요.",
+      "examples": [
+        {
+          "ko": "저는 수영을 못 해요.",
+          "meaning": "I cannot swim."
+        },
+        {
+          "ko": "오늘은 일이 있어서 모임에 못 가요.",
+          "meaning": "I cannot go to the gathering because I have work."
+        }
+      ],
+      "details": {
+        "form": "못 + 동사",
+        "usage": "능력이나 상황 때문에 어떤 행동을 할 수 없음을 말합니다.",
+        "watchOut": "스스로 하지 않기로 한 ‘안’과 구별해 보세요. ‘못 가요’는 갈 수 없다는 뜻입니다."
+      }
+    },
+    {
+      "id": "u02-g02",
+      "pattern": "-아서/어서",
+      "explanation": "앞의 일이 뒤의 일의 이유가 될 때 사용해요.",
+      "examples": [
+        {
+          "ko": "날씨가 좋아서 자전거를 타요.",
+          "meaning": "I ride a bike because the weather is nice."
+        },
+        {
+          "ko": "비가 와서 집에서 쉬어요.",
+          "meaning": "It is raining, so I am resting at home."
+        }
+      ],
+      "details": {
+        "form": "어간의 끝 모음 ㅏ·ㅗ → -아서, 그 밖 → -어서, 하다 → 해서",
+        "usage": "앞의 내용이 뒤의 내용의 이유가 될 때 사용합니다.",
+        "watchOut": "이유를 말할 때는 앞 절에 보통 과거 시제 -았/었-을 넣지 않습니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "나영",
+        "text": "시간이 있을 때 무엇을 해요?",
+        "meaning": "What do you do when you have time?"
+      },
+      {
+        "speaker": "준호",
+        "text": "저는 피아노를 쳐요. 그런데 수영은 못 해요.",
+        "meaning": "I play piano. But I cannot swim."
+      },
+      {
+        "speaker": "나영",
+        "text": "저는 자전거를 자주 타요. 좋아해서 매주 타요.",
+        "meaning": "I ride a bike often. I ride every week because I like it."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u02-q01",
+      "type": "multiple-choice",
+      "question": "‘취미’의 뜻은 무엇인가요?",
+      "choices": [
+        "hobby",
+        "bicycle",
+        "swimming"
+      ],
+      "answer": 0,
+      "explanation": "‘취미’는 ‘hobby’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘hobby’이에요."
+      ]
+    },
+    {
+      "id": "u02-q02",
+      "type": "multiple-choice",
+      "question": "‘못’를 사용한 문장은?",
+      "choices": [
+        "저는 수영을 못 해요.",
+        "날씨가 좋아서 자전거를 타요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘저는 수영을 못 해요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘저는 수영을 못 해요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "취미",
+          "hobby"
+        ],
+        [
+          "자전거",
+          "bicycle"
+        ],
+        [
+          "수영",
+          "swimming"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "취미 활동 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "나영",
+        "text": "피아노는 언제 연습해요?",
+        "meaning": "When do you practice piano?"
+      },
+      {
+        "speaker": "준호",
+        "text": "저녁에 해요. 아침에는 시간이 없어서 못 해요.",
+        "meaning": "In the evening. I cannot in the morning because I have no time."
+      },
+      {
+        "speaker": "나영",
+        "text": "저도 아침에는 운동을 못 해요.",
+        "meaning": "I cannot exercise in the morning either."
+      }
+    ]
+  },
+  "listening": {
+    "script": "제 취미는 사진 찍기예요. 토요일에 공원에 가서 사진을 찍어요. 비가 오면 밖에 못 가서 집에서 그림을 그려요.",
+    "question": {
+      "id": "u02-listen",
+      "type": "multiple-choice",
+      "question": "비가 오면 무엇을 해요?",
+      "choices": [
+        "집에서 그림을 그려요.",
+        "공원에서 사진을 찍어요.",
+        "수영을 해요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘집에서 그림을 그려요.’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "잘하는 취미 하나와 못하는 활동 하나를 친구에게 이야기해 보세요."
+  },
+  "reading": {
+    "text": "저는 일요일마다 친구와 배드민턴을 쳐요. 운동을 좋아해서 매주 만나요. 지난주에는 비가 많이 와서 밖에서 못 했어요. 그래서 실내 체육관을 찾아갔어요.",
+    "question": {
+      "id": "u02-read",
+      "type": "multiple-choice",
+      "question": "지난주에는 왜 밖에서 운동하지 못했어요?",
+      "choices": [
+        "비가 와서요.",
+        "친구가 없어서요.",
+        "시간이 없어서요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘비가 와서요.’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "자신의 취미와 자주 하는 시간을 3문장으로 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u02-practice1",
+        "type": "multiple-choice",
+        "question": "준호는 무엇을 할 줄 알아요?",
+        "choices": [
+          "피아노를 쳐요.",
+          "수영을 해요.",
+          "낚시를 해요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘피아노를 쳐요.’예요."
+        ]
+      },
+      "sentence": "시간이 있을 때 무엇을 해요?"
+    },
+    "two": {
+      "question": {
+        "id": "u02-practice2",
+        "type": "multiple-choice",
+        "question": "준호는 왜 아침에 연습을 못 해요?",
+        "choices": [
+          "시간이 없어서요.",
+          "악기가 없어서요.",
+          "날씨가 나빠서요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘시간이 없어서요.’예요."
+        ]
+      },
+      "sentence": "피아노는 언제 연습해요?"
+    }
+  }
+}

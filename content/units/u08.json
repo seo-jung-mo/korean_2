@@ -1,0 +1,392 @@
+{
+  "unitId": "u08",
+  "title": "가족",
+  "kind": "lesson",
+  "subtitle": "가족을 소개하고 높임말을 익혀요.",
+  "learningOverview": {
+    "goals": [
+      "가족 관계를 소개할 수 있어요.",
+      "높임 표현을 사용해 가족의 일상을 말할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 가족 관계",
+      "문법: 의, -(으)시-"
+    ],
+    "plan": [
+      "가족 관계 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "가족을 소개하고 일상 이야기하기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u08-v01",
+      "ko": "가족",
+      "romanization": "",
+      "meaning": "family",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u08-v02",
+      "ko": "할아버지",
+      "romanization": "",
+      "meaning": "grandfather",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u08-v03",
+      "ko": "할머니",
+      "romanization": "",
+      "meaning": "grandmother",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u08-v06",
+      "ko": "아버지",
+      "romanization": "",
+      "meaning": "father",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v07",
+      "ko": "어머니",
+      "romanization": "",
+      "meaning": "mother",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v08",
+      "ko": "언니",
+      "romanization": "",
+      "meaning": "older sister (female speaker)",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v09",
+      "ko": "누나",
+      "romanization": "",
+      "meaning": "older sister (male speaker)",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v10",
+      "ko": "오빠",
+      "romanization": "",
+      "meaning": "older brother (female speaker)",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v11",
+      "ko": "형",
+      "romanization": "",
+      "meaning": "older brother (male speaker)",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v04",
+      "ko": "부모님",
+      "romanization": "",
+      "meaning": "parents",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u08-v05",
+      "ko": "동생",
+      "romanization": "",
+      "meaning": "younger sibling",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u08-v12",
+      "ko": "계시다",
+      "romanization": "",
+      "meaning": "to be (honorific)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v13",
+      "ko": "드시다",
+      "romanization": "",
+      "meaning": "to eat (honorific)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v14",
+      "ko": "주무시다",
+      "romanization": "",
+      "meaning": "to sleep (honorific)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v15",
+      "ko": "말씀하시다",
+      "romanization": "",
+      "meaning": "to speak (honorific)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u08-v16",
+      "ko": "돌아가시다",
+      "romanization": "",
+      "meaning": "to pass away (honorific)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u08-g01",
+      "pattern": "의",
+      "explanation": "소유나 관계를 나타낼 때 두 명사 사이에 사용해요.",
+      "examples": [
+        {
+          "ko": "이분은 저의 할머니예요.",
+          "meaning": "This is my grandmother."
+        },
+        {
+          "ko": "이것은 제 동생의 가방이에요.",
+          "meaning": "This is my younger sibling’s bag."
+        }
+      ],
+      "details": {
+        "form": "소유자·관계 명사 + 의 + 다른 명사",
+        "usage": "누구의 것인지, 어떤 관계인지 나타냅니다.",
+        "watchOut": "일상 대화에서는 ‘저의’를 ‘제’로 줄여 말하는 경우가 많습니다."
+      }
+    },
+    {
+      "id": "u08-g02",
+      "pattern": "-(으)시-",
+      "explanation": "어른이나 존중하는 사람의 행동을 높여 말해요.",
+      "examples": [
+        {
+          "ko": "아버지는 요리를 잘하세요.",
+          "meaning": "My father cooks well."
+        },
+        {
+          "ko": "할머니께서는 매일 아침 산책하세요.",
+          "meaning": "My grandmother takes a walk every morning."
+        }
+      ],
+      "details": {
+        "form": "동사·형용사 어간 + -(으)시- + 어미",
+        "usage": "동작을 하는 주어가 높여야 할 사람일 때 사용합니다.",
+        "watchOut": "어른에게 말하는 것만으로는 부족합니다. 높이는 대상이 문장의 주어인지 확인하세요."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "소라",
+        "text": "가족이 몇 명이에요?",
+        "meaning": "How many people are in your family?"
+      },
+      {
+        "speaker": "지안",
+        "text": "네 명이에요. 부모님하고 동생이 있어요.",
+        "meaning": "Four. I have my parents and a younger sibling."
+      },
+      {
+        "speaker": "소라",
+        "text": "동생도 한국어를 배워요?",
+        "meaning": "Does your sibling also learn Korean?"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u08-q01",
+      "type": "multiple-choice",
+      "question": "‘가족’의 뜻은 무엇인가요?",
+      "choices": [
+        "family",
+        "grandfather",
+        "grandmother"
+      ],
+      "answer": 0,
+      "explanation": "‘가족’는 ‘family’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘family’이에요."
+      ]
+    },
+    {
+      "id": "u08-q02",
+      "type": "multiple-choice",
+      "question": "‘의’를 사용한 문장은?",
+      "choices": [
+        "이분은 저의 할머니예요.",
+        "아버지는 요리를 잘하세요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘이분은 저의 할머니예요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘이분은 저의 할머니예요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "가족",
+          "family"
+        ],
+        [
+          "할아버지",
+          "grandfather"
+        ],
+        [
+          "할머니",
+          "grandmother"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "가족 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "소라",
+        "text": "할머니도 같이 사세요?",
+        "meaning": "Does your grandmother live with you too?"
+      },
+      {
+        "speaker": "지안",
+        "text": "아니요, 다른 동네에 계세요. 주말에 자주 찾아가요.",
+        "meaning": "No, she lives in another neighborhood. We visit often on weekends."
+      },
+      {
+        "speaker": "소라",
+        "text": "할머니께서는 무엇을 좋아하세요?",
+        "meaning": "What does your grandmother like?"
+      }
+    ]
+  },
+  "listening": {
+    "script": "우리 가족은 다섯 명이에요. 부모님과 언니, 남동생이 있어요. 아버지는 음악을 좋아하시고 어머니는 요리를 잘하세요.",
+    "question": {
+      "id": "u08-listen",
+      "type": "multiple-choice",
+      "question": "이 가족은 몇 명이에요?",
+      "choices": [
+        "다섯 명",
+        "네 명",
+        "여섯 명"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘다섯 명’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "가족 한 분을 소개하고 좋아하시는 일을 말해 보세요."
+  },
+  "reading": {
+    "text": "제 가족은 세 명이에요. 어머니와 형, 그리고 저예요. 어머니는 아침에 일찍 일어나세요. 형은 대학에 다니고 저는 회사에 다녀요. 일요일에는 함께 저녁을 만들어요.",
+    "question": {
+      "id": "u08-read",
+      "type": "multiple-choice",
+      "question": "가족은 일요일에 무엇을 해요?",
+      "choices": [
+        "저녁을 만들어요.",
+        "산에 가요.",
+        "영화를 봐요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘저녁을 만들어요.’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "가족 구성원과 한 분의 일상을 높임말로 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u08-practice1",
+        "type": "multiple-choice",
+        "question": "지안 씨의 가족은 몇 명이에요?",
+        "choices": [
+          "네 명",
+          "세 명",
+          "다섯 명"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘네 명’예요."
+        ]
+      },
+      "sentence": "가족이 몇 명이에요?"
+    },
+    "two": {
+      "question": {
+        "id": "u08-practice2",
+        "type": "multiple-choice",
+        "question": "지안 씨의 할머니는 어디에 계세요?",
+        "choices": [
+          "다른 동네",
+          "같은 집",
+          "외국"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘다른 동네’예요."
+        ]
+      },
+      "sentence": "할머니도 같이 사세요?"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "courseId": "sejong2",
+  "title": "세종한국어2 기반 초급",
+  "units": [
+    {
+      "unitId": "u01",
+      "title": "안부",
+      "kind": "lesson",
+      "icon": "👋",
+      "unlockAfter": null,
+      "content": "/content/units/u01.json"
+    },
+    {
+      "unitId": "u02",
+      "title": "취미 활동",
+      "kind": "lesson",
+      "icon": "🎨",
+      "unlockAfter": "u01",
+      "content": "/content/units/u02.json"
+    },
+    {
+      "unitId": "u03",
+      "title": "음식",
+      "kind": "lesson",
+      "icon": "🍚",
+      "unlockAfter": "u02",
+      "content": "/content/units/u03.json"
+    },
+    {
+      "unitId": "c01",
+      "title": "한국 음식",
+      "kind": "culture",
+      "icon": "🥢",
+      "unlockAfter": "u03",
+      "content": "/content/units/c01.json"
+    },
+    {
+      "unitId": "u04",
+      "title": "교통",
+      "kind": "lesson",
+      "icon": "🚇",
+      "unlockAfter": "c01",
+      "content": "/content/units/u04.json"
+    },
+    {
+      "unitId": "u05",
+      "title": "길 찾기",
+      "kind": "lesson",
+      "icon": "🗺️",
+      "unlockAfter": "u04",
+      "content": "/content/units/u05.json"
+    },
+    {
+      "unitId": "u06",
+      "title": "전화",
+      "kind": "lesson",
+      "icon": "☎️",
+      "unlockAfter": "u05",
+      "content": "/content/units/u06.json"
+    },
+    {
+      "unitId": "c02",
+      "title": "한국의 대중교통",
+      "kind": "culture",
+      "icon": "🚌",
+      "unlockAfter": "u06",
+      "content": "/content/units/c02.json"
+    },
+    {
+      "unitId": "u07",
+      "title": "외모",
+      "kind": "lesson",
+      "icon": "🪞",
+      "unlockAfter": "c02",
+      "content": "/content/units/u07.json"
+    },
+    {
+      "unitId": "u08",
+      "title": "가족",
+      "kind": "lesson",
+      "icon": "👨‍👩‍👧",
+      "unlockAfter": "u07",
+      "content": "/content/units/u08.json"
+    },
+    {
+      "unitId": "u09",
+      "title": "여행",
+      "kind": "lesson",
+      "icon": "🧳",
+      "unlockAfter": "u08",
+      "content": "/content/units/u09.json"
+    },
+    {
+      "unitId": "c03",
+      "title": "한국의 여행지",
+      "kind": "culture",
+      "icon": "🏞️",
+      "unlockAfter": "u09",
+      "content": "/content/units/c03.json"
+    },
+    {
+      "unitId": "u10",
+      "title": "건강",
+      "kind": "lesson",
+      "icon": "💚",
+      "unlockAfter": "c03",
+      "content": "/content/units/u10.json"
+    },
+    {
+      "unitId": "u11",
+      "title": "모임",
+      "kind": "lesson",
+      "icon": "🎉",
+      "unlockAfter": "u10",
+      "content": "/content/units/u11.json"
+    },
+    {
+      "unitId": "u12",
+      "title": "고향",
+      "kind": "lesson",
+      "icon": "🏡",
+      "unlockAfter": "u11",
+      "content": "/content/units/u12.json"
+    },
+    {
+      "unitId": "c04",
+      "title": "한국 사람들의 모임",
+      "kind": "culture",
+      "icon": "☕",
+      "unlockAfter": "u12",
+      "content": "/content/units/c04.json"
+    },
+    {
+      "unitId": "u13",
+      "title": "기분과 감정",
+      "kind": "lesson",
+      "icon": "😊",
+      "unlockAfter": "c04",
+      "content": "/content/units/u13.json"
+    },
+    {
+      "unitId": "u14",
+      "title": "미래",
+      "kind": "lesson",
+      "icon": "✨",
+      "unlockAfter": "u13",
+      "content": "/content/units/u14.json"
+    }
+  ]
+}

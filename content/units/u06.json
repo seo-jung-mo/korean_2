@@ -1,0 +1,383 @@
+{
+  "unitId": "u06",
+  "title": "전화",
+  "kind": "lesson",
+  "subtitle": "전화와 메시지로 필요한 말을 전해요.",
+  "learningOverview": {
+    "goals": [
+      "전화로 상대방을 찾고 필요한 말을 전할 수 있어요.",
+      "메시지로 약속을 확인하고 부탁할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 전화와 문자 메시지",
+      "문법: -아/어 주다, -지요?"
+    ],
+    "plan": [
+      "전화와 문자 메시지 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "전화하고 짧은 메시지 남기기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u06-v01",
+      "ko": "전화",
+      "romanization": "",
+      "meaning": "phone call",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u06-v02",
+      "ko": "전화번호",
+      "romanization": "",
+      "meaning": "phone number",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u06-v03",
+      "ko": "문자 메시지",
+      "romanization": "",
+      "meaning": "text message",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u06-v06",
+      "ko": "전화를 하다",
+      "romanization": "",
+      "meaning": "to make a call",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v07",
+      "ko": "전화를 걸다",
+      "romanization": "",
+      "meaning": "to place a call",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v08",
+      "ko": "전화를 끊다",
+      "romanization": "",
+      "meaning": "to hang up",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v09",
+      "ko": "음성 메시지를 남기다",
+      "romanization": "",
+      "meaning": "to leave a voice message",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v10",
+      "ko": "문자 메시지를 보내다",
+      "romanization": "",
+      "meaning": "to send a text",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v04",
+      "ko": "전화를 받다",
+      "romanization": "",
+      "meaning": "to answer a call",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u06-v05",
+      "ko": "연락하다",
+      "romanization": "",
+      "meaning": "to contact",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u06-v11",
+      "ko": "여보세요",
+      "romanization": "",
+      "meaning": "hello (on phone)",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v12",
+      "ko": "잠깐만 기다리세요",
+      "romanization": "",
+      "meaning": "please wait a moment",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v13",
+      "ko": "통화 중입니다",
+      "romanization": "",
+      "meaning": "the line is busy",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v14",
+      "ko": "잘못 걸었습니다",
+      "romanization": "",
+      "meaning": "I dialed the wrong number",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u06-v15",
+      "ko": "나중에 다시 하겠습니다",
+      "romanization": "",
+      "meaning": "I will call again later",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u06-g01",
+      "pattern": "-아/어 주다",
+      "explanation": "다른 사람을 위해 하는 행동이나 부탁을 말해요.",
+      "examples": [
+        {
+          "ko": "나중에 전화해 주세요.",
+          "meaning": "Please call me later."
+        },
+        {
+          "ko": "이 주소를 문자로 보내 주세요.",
+          "meaning": "Please send me this address by text."
+        }
+      ],
+      "details": {
+        "form": "동사 어간 + -아/어 주다",
+        "usage": "다른 사람을 위해 행동하거나 부탁할 때 씁니다.",
+        "watchOut": "공손한 부탁은 ‘-아/어 주세요’ 형태로 말할 수 있습니다."
+      }
+    },
+    {
+      "id": "u06-g02",
+      "pattern": "-지요?",
+      "explanation": "상대에게 확인하거나 동의를 구할 때 사용해요.",
+      "examples": [
+        {
+          "ko": "내일 만날 수 있지요?",
+          "meaning": "We can meet tomorrow, right?"
+        },
+        {
+          "ko": "내일 수업이 있지요?",
+          "meaning": "We have class tomorrow, right?"
+        }
+      ],
+      "details": {
+        "form": "동사·형용사·이다 어간 + -지요?",
+        "usage": "이미 알고 있다고 생각하는 사실을 상대에게 확인합니다.",
+        "watchOut": "대화에서는 ‘-죠?’로 줄여 말하기도 합니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "서연",
+        "text": "지금 통화할 수 있어요?",
+        "meaning": "Can you talk now?"
+      },
+      {
+        "speaker": "마테오",
+        "text": "지금은 회의 중이에요. 문자 메시지를 보내 주세요.",
+        "meaning": "I am in a meeting now. Please send a text."
+      },
+      {
+        "speaker": "서연",
+        "text": "네, 끝나면 연락해 주세요.",
+        "meaning": "Okay, please contact me when it ends."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u06-q01",
+      "type": "multiple-choice",
+      "question": "‘전화’의 뜻은 무엇인가요?",
+      "choices": [
+        "phone call",
+        "phone number",
+        "text message"
+      ],
+      "answer": 0,
+      "explanation": "‘전화’는 ‘phone call’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘phone call’이에요."
+      ]
+    },
+    {
+      "id": "u06-q02",
+      "type": "multiple-choice",
+      "question": "‘-아/어 주다’를 사용한 문장은?",
+      "choices": [
+        "나중에 전화해 주세요.",
+        "내일 만날 수 있지요?",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘나중에 전화해 주세요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘나중에 전화해 주세요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "전화",
+          "phone call"
+        ],
+        [
+          "전화번호",
+          "phone number"
+        ],
+        [
+          "문자 메시지",
+          "text message"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "전화 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "서연",
+        "text": "제 번호를 저장했어요?",
+        "meaning": "Did you save my number?"
+      },
+      {
+        "speaker": "마테오",
+        "text": "아직 못 했어요. 번호를 다시 알려 주시겠어요?",
+        "meaning": "Not yet. Could you tell me the number again?"
+      },
+      {
+        "speaker": "서연",
+        "text": "네, 문자로 보내 줄게요.",
+        "meaning": "Yes, I will send it by text."
+      }
+    ]
+  },
+  "listening": {
+    "script": "지금은 전화를 받을 수 없어요. 오후 세 시에 다시 전화해 주세요. 급한 일이면 문자 메시지를 보내 주세요.",
+    "question": {
+      "id": "u06-listen",
+      "type": "multiple-choice",
+      "question": "언제 다시 전화하면 돼요?",
+      "choices": [
+        "오후 세 시",
+        "오전 세 시",
+        "내일 아침"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘오후 세 시’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "친구가 전화를 받지 않을 때 남길 짧은 메시지를 말해 보세요."
+  },
+  "reading": {
+    "text": "지연 씨가 친구에게 전화를 했지만 친구는 받지 않았어요. 그래서 “오늘 모임이 여섯 시에 시작해요. 늦으면 연락해 주세요”라고 메시지를 보냈어요. 잠시 후 친구에게서 “알겠어요”라는 답장이 왔어요.",
+    "question": {
+      "id": "u06-read",
+      "type": "multiple-choice",
+      "question": "모임은 언제 시작해요?",
+      "choices": [
+        "여섯 시",
+        "세 시",
+        "일곱 시"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘여섯 시’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "친구에게 약속 시간과 장소를 알려 주는 짧은 문자를 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u06-practice1",
+        "type": "multiple-choice",
+        "question": "마테오는 지금 왜 통화할 수 없어요?",
+        "choices": [
+          "회의 중이어서요.",
+          "잠을 자서요.",
+          "여행 중이어서요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘회의 중이어서요.’예요."
+        ]
+      },
+      "sentence": "지금 통화할 수 있어요?"
+    },
+    "two": {
+      "question": {
+        "id": "u06-practice2",
+        "type": "multiple-choice",
+        "question": "서연은 번호를 어떻게 알려 줄 거예요?",
+        "choices": [
+          "문자로 보낼 거예요.",
+          "편지로 보낼 거예요.",
+          "직접 만날 거예요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘문자로 보낼 거예요.’예요."
+        ]
+      },
+      "sentence": "제 번호를 저장했어요?"
+    }
+  }
+}

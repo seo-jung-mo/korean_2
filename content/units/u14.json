@@ -1,0 +1,365 @@
+{
+  "unitId": "u14",
+  "title": "미래",
+  "kind": "lesson",
+  "subtitle": "꿈과 앞으로의 계획을 이야기해요.",
+  "learningOverview": {
+    "goals": [
+      "미래의 꿈과 계획을 말할 수 있어요.",
+      "꿈을 이루기 위해 하는 일과 조건을 설명할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 꿈과 계획",
+      "문법: -(으)려고, -(으)면"
+    ],
+    "plan": [
+      "꿈과 계획 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "미래의 꿈과 실천 계획 나누기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u14-v01",
+      "ko": "미래",
+      "romanization": "",
+      "meaning": "future",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u14-v02",
+      "ko": "꿈",
+      "romanization": "",
+      "meaning": "dream",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u14-v03",
+      "ko": "계획",
+      "romanization": "",
+      "meaning": "plan",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u14-v06",
+      "ko": "한국 친구를 사귀다",
+      "romanization": "",
+      "meaning": "to make Korean friends",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v07",
+      "ko": "한국 문화에 관심이 있다",
+      "romanization": "",
+      "meaning": "to be interested in Korean culture",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v08",
+      "ko": "한국으로 여행을 가다",
+      "romanization": "",
+      "meaning": "to travel to Korea",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v09",
+      "ko": "한국 회사에 취직하다",
+      "romanization": "",
+      "meaning": "to get a job at a Korean company",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v04",
+      "ko": "졸업하다",
+      "romanization": "",
+      "meaning": "to graduate",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u14-v05",
+      "ko": "성공하다",
+      "romanization": "",
+      "meaning": "to succeed",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u14-v10",
+      "ko": "선생님이 되다",
+      "romanization": "",
+      "meaning": "to become a teacher",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v11",
+      "ko": "꿈을 이루다",
+      "romanization": "",
+      "meaning": "to achieve a dream",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v12",
+      "ko": "좋은 사람과 결혼하다",
+      "romanization": "",
+      "meaning": "to marry a good person",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u14-v13",
+      "ko": "외국 여행을 가다",
+      "romanization": "",
+      "meaning": "to travel abroad",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u14-g01",
+      "pattern": "-(으)려고",
+      "explanation": "어떤 행동의 목적이나 의도를 말해요.",
+      "examples": [
+        {
+          "ko": "한국어를 더 배우려고 매일 공부해요.",
+          "meaning": "I study every day to learn more Korean."
+        },
+        {
+          "ko": "시험을 준비하려고 매일 복습해요.",
+          "meaning": "I review every day to prepare for the exam."
+        }
+      ],
+      "details": {
+        "form": "동사 어간: 받침 없거나 ㄹ 받침 → -려고, 다른 받침 → -으려고",
+        "usage": "앞의 행동을 하려는 목적이나 계획을 나타냅니다.",
+        "watchOut": "목적을 나타내므로 뒤에는 그 목적을 이루기 위한 행동이 이어집니다."
+      }
+    },
+    {
+      "id": "u14-g02",
+      "pattern": "-(으)면",
+      "explanation": "어떤 조건이 이루어진 뒤의 일을 말해요.",
+      "examples": [
+        {
+          "ko": "시간이 있으면 한국 영화를 볼 거예요.",
+          "meaning": "If I have time, I will watch a Korean movie."
+        },
+        {
+          "ko": "시간이 있으면 같이 점심을 먹어요.",
+          "meaning": "If you have time, let’s have lunch together."
+        }
+      ],
+      "details": {
+        "form": "어간: 받침 없거나 ㄹ 받침 → -면, 다른 받침 → -으면",
+        "usage": "어떤 조건이 이루어졌을 때의 결과를 말합니다.",
+        "watchOut": "확정된 사실이 아니라 조건이나 가능성을 말할 때 자주 씁니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "나래",
+        "text": "졸업하면 무엇을 하고 싶어요?",
+        "meaning": "What do you want to do after graduation?"
+      },
+      {
+        "speaker": "레오",
+        "text": "저는 사람들을 가르치려고 해요.",
+        "meaning": "I intend to teach people."
+      },
+      {
+        "speaker": "나래",
+        "text": "멋진 꿈이에요! 저는 글을 쓰고 싶어요.",
+        "meaning": "That is a wonderful dream! I want to write."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u14-q01",
+      "type": "multiple-choice",
+      "question": "‘미래’의 뜻은 무엇인가요?",
+      "choices": [
+        "future",
+        "dream",
+        "plan"
+      ],
+      "answer": 0,
+      "explanation": "‘미래’는 ‘future’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘future’이에요."
+      ]
+    },
+    {
+      "id": "u14-q02",
+      "type": "multiple-choice",
+      "question": "‘-(으)려고’를 사용한 문장은?",
+      "choices": [
+        "한국어를 더 배우려고 매일 공부해요.",
+        "시간이 있으면 한국 영화를 볼 거예요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘한국어를 더 배우려고 매일 공부해요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘한국어를 더 배우려고 매일 공부해요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "미래",
+          "future"
+        ],
+        [
+          "꿈",
+          "dream"
+        ],
+        [
+          "계획",
+          "plan"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "미래 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "나래",
+        "text": "그 일을 하려고 무엇을 준비해요?",
+        "meaning": "What are you preparing to do that job?"
+      },
+      {
+        "speaker": "레오",
+        "text": "매일 책을 읽고 발표를 연습해요.",
+        "meaning": "I read books and practice presentations every day."
+      },
+      {
+        "speaker": "나래",
+        "text": "열심히 하면 좋은 선생님이 될 거예요.",
+        "meaning": "If you work hard, you will become a good teacher."
+      }
+    ]
+  },
+  "listening": {
+    "script": "제 꿈은 작은 가게를 여는 거예요. 돈을 모으려고 주말에도 일해요. 가게를 열면 친구들을 먼저 초대하고 싶어요.",
+    "question": {
+      "id": "u14-listen",
+      "type": "multiple-choice",
+      "question": "이 사람은 왜 주말에도 일해요?",
+      "choices": [
+        "돈을 모으려고",
+        "친구를 만나려고",
+        "책을 읽으려고"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘돈을 모으려고’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "미래의 꿈과 그 꿈을 이루려고 지금 하는 일을 말해 보세요."
+  },
+  "reading": {
+    "text": "민재는 나중에 여행 작가가 되고 싶어요. 다양한 곳을 보려고 주말마다 짧은 여행을 해요. 여행에서 본 것을 매일 글로 적어요. 좋은 글을 많이 쓰면 언젠가 책을 낼 수 있을 거라고 생각해요.",
+    "question": {
+      "id": "u14-read",
+      "type": "multiple-choice",
+      "question": "민재는 주말마다 왜 여행해요?",
+      "choices": [
+        "다양한 곳을 보려고",
+        "일을 쉬려고",
+        "친구를 만나려고"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘다양한 곳을 보려고’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "미래에 하고 싶은 일과 그것을 이루기 위한 현재의 계획을 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u14-practice1",
+        "type": "multiple-choice",
+        "question": "레오는 앞으로 어떤 일을 하고 싶어요?",
+        "choices": [
+          "사람들을 가르치고 싶어요.",
+          "요리사가 되고 싶어요.",
+          "여행만 하고 싶어요."
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘사람들을 가르치고 싶어요.’예요."
+        ]
+      },
+      "sentence": "졸업하면 무엇을 하고 싶어요?"
+    },
+    "two": {
+      "question": {
+        "id": "u14-practice2",
+        "type": "multiple-choice",
+        "question": "레오는 그 일을 위해 무엇을 연습해요?",
+        "choices": [
+          "발표",
+          "수영",
+          "노래"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘발표’예요."
+        ]
+      },
+      "sentence": "그 일을 하려고 무엇을 준비해요?"
+    }
+  }
+}

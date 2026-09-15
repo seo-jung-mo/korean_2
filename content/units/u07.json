@@ -1,0 +1,401 @@
+{
+  "unitId": "u07",
+  "title": "외모",
+  "kind": "lesson",
+  "subtitle": "사람의 모습과 옷차림을 설명해요.",
+  "learningOverview": {
+    "goals": [
+      "사람의 외모와 옷차림을 설명할 수 있어요.",
+      "사람이 지금 하고 있는 행동을 말할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 외모와 옷차림",
+      "문법: -(으)ㄴ, -고 있다"
+    ],
+    "plan": [
+      "외모와 옷차림 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "특징을 말하며 사람 찾기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u07-v01",
+      "ko": "외모",
+      "romanization": "",
+      "meaning": "appearance",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u07-v02",
+      "ko": "옷차림",
+      "romanization": "",
+      "meaning": "outfit",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u07-v03",
+      "ko": "안경",
+      "romanization": "",
+      "meaning": "glasses",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u07-v06",
+      "ko": "예쁘다",
+      "romanization": "",
+      "meaning": "to be pretty",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v07",
+      "ko": "멋있다",
+      "romanization": "",
+      "meaning": "to be stylish",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v08",
+      "ko": "귀엽다",
+      "romanization": "",
+      "meaning": "to be cute",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v09",
+      "ko": "잘생기다",
+      "romanization": "",
+      "meaning": "to be handsome",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v10",
+      "ko": "키가 작다",
+      "romanization": "",
+      "meaning": "to be short",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v11",
+      "ko": "머리가 길다",
+      "romanization": "",
+      "meaning": "to have long hair",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v04",
+      "ko": "모자",
+      "romanization": "",
+      "meaning": "hat",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u07-v05",
+      "ko": "키가 크다",
+      "romanization": "",
+      "meaning": "to be tall",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u07-v12",
+      "ko": "셔츠를 입다",
+      "romanization": "",
+      "meaning": "to wear a shirt",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v13",
+      "ko": "바지를 입다",
+      "romanization": "",
+      "meaning": "to wear pants",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v14",
+      "ko": "신발을 신다",
+      "romanization": "",
+      "meaning": "to wear shoes",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v15",
+      "ko": "안경을 쓰다",
+      "romanization": "",
+      "meaning": "to wear glasses",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v16",
+      "ko": "가방을 들다",
+      "romanization": "",
+      "meaning": "to carry a bag",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u07-v17",
+      "ko": "넥타이를 매다",
+      "romanization": "",
+      "meaning": "to wear a tie",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u07-g01",
+      "pattern": "-(으)ㄴ",
+      "explanation": "형용사가 뒤의 명사를 꾸밀 때 사용해요.",
+      "examples": [
+        {
+          "ko": "키가 큰 사람이 제 친구예요.",
+          "meaning": "The tall person is my friend."
+        },
+        {
+          "ko": "긴 머리를 한 분이 제 선생님이에요.",
+          "meaning": "The person with long hair is my teacher."
+        }
+      ],
+      "details": {
+        "form": "형용사 어간: 받침 없으면 -ㄴ, 받침 있으면 -은",
+        "usage": "형용사가 명사 바로 앞에서 사람이나 사물의 특징을 설명합니다.",
+        "watchOut": "‘예쁘다 사람’이 아니라 ‘예쁜 사람’이라고 합니다."
+      }
+    },
+    {
+      "id": "u07-g02",
+      "pattern": "-고 있다",
+      "explanation": "지금 하고 있는 행동이나 입고 있는 상태를 나타내요.",
+      "examples": [
+        {
+          "ko": "빨간 모자를 쓰고 있어요.",
+          "meaning": "They are wearing a red hat."
+        },
+        {
+          "ko": "저기 앉아 있는 사람이 안경을 쓰고 있어요.",
+          "meaning": "The person sitting there is wearing glasses."
+        }
+      ],
+      "details": {
+        "form": "동사 어간 + -고 있다",
+        "usage": "지금 진행되는 행동을 말합니다. 입다·쓰다 등의 옷차림을 묘사할 때도 자주 씁니다.",
+        "watchOut": "‘입고 있어요’는 지금 입는 동작뿐 아니라 입은 상태를 나타낼 수 있습니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "다혜",
+        "text": "입구에 있는 제 친구가 보여요?",
+        "meaning": "Can you see my friend at the entrance?"
+      },
+      {
+        "speaker": "민호",
+        "text": "어떤 분이에요?",
+        "meaning": "What do they look like?"
+      },
+      {
+        "speaker": "다혜",
+        "text": "키가 크고 파란 셔츠를 입고 있어요.",
+        "meaning": "They are tall and wearing a blue shirt."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u07-q01",
+      "type": "multiple-choice",
+      "question": "‘외모’의 뜻은 무엇인가요?",
+      "choices": [
+        "appearance",
+        "outfit",
+        "glasses"
+      ],
+      "answer": 0,
+      "explanation": "‘외모’는 ‘appearance’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘appearance’이에요."
+      ]
+    },
+    {
+      "id": "u07-q02",
+      "type": "multiple-choice",
+      "question": "‘-(으)ㄴ’를 사용한 문장은?",
+      "choices": [
+        "키가 큰 사람이 제 친구예요.",
+        "빨간 모자를 쓰고 있어요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘키가 큰 사람이 제 친구예요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘키가 큰 사람이 제 친구예요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "외모",
+          "appearance"
+        ],
+        [
+          "옷차림",
+          "outfit"
+        ],
+        [
+          "안경",
+          "glasses"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "외모 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "다혜",
+        "text": "모자를 쓴 사람인가요?",
+        "meaning": "Is it the person wearing a hat?"
+      },
+      {
+        "speaker": "민호",
+        "text": "아니요, 안경을 쓰고 있는 사람 옆에 있어요.",
+        "meaning": "No, they are next to the person wearing glasses."
+      },
+      {
+        "speaker": "다혜",
+        "text": "아, 찾았어요!",
+        "meaning": "Ah, I found them!"
+      }
+    ]
+  },
+  "listening": {
+    "script": "제 친구는 키가 크고 긴 머리를 하고 있어요. 오늘은 초록색 코트를 입고 검은 가방을 들고 있어요.",
+    "question": {
+      "id": "u07-listen",
+      "type": "multiple-choice",
+      "question": "친구는 무슨 색 코트를 입었어요?",
+      "choices": [
+        "초록색",
+        "파란색",
+        "빨간색"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘초록색’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "주변 사람 한 명의 머리 모양과 옷차림을 설명해 보세요."
+  },
+  "reading": {
+    "text": "현관에서 기다리는 사람은 제 동생이에요. 동생은 키가 작고 짧은 머리를 하고 있어요. 오늘은 노란 운동화를 신고 있어요. 손에는 커다란 책을 들고 있어요.",
+    "question": {
+      "id": "u07-read",
+      "type": "multiple-choice",
+      "question": "동생은 무엇을 신고 있어요?",
+      "choices": [
+        "노란 운동화",
+        "검은 구두",
+        "파란 신발"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘노란 운동화’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "친구가 찾을 수 있도록 한 사람의 외모와 옷차림을 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u07-practice1",
+        "type": "multiple-choice",
+        "question": "다혜의 친구는 어떤 옷을 입고 있어요?",
+        "choices": [
+          "파란 셔츠",
+          "빨간 코트",
+          "노란 셔츠"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘파란 셔츠’예요."
+        ]
+      },
+      "sentence": "입구에 있는 제 친구가 보여요?"
+    },
+    "two": {
+      "question": {
+        "id": "u07-practice2",
+        "type": "multiple-choice",
+        "question": "다혜의 친구는 누구 옆에 있어요?",
+        "choices": [
+          "안경 쓴 사람",
+          "모자 쓴 사람",
+          "검은 가방 든 사람"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘안경 쓴 사람’예요."
+        ]
+      },
+      "sentence": "모자를 쓴 사람인가요?"
+    }
+  }
+}

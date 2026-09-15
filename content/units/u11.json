@@ -1,0 +1,392 @@
+{
+  "unitId": "u11",
+  "title": "모임",
+  "kind": "lesson",
+  "subtitle": "모임을 준비하고 약속을 정해요.",
+  "learningOverview": {
+    "goals": [
+      "모임의 시간과 장소를 정할 수 있어요.",
+      "준비할 일을 말하고 맡은 일을 약속할 수 있어요."
+    ],
+    "topics": [
+      "어휘: 모임과 준비",
+      "문법: -아야/어야 하다, -(으)ㄹ게요"
+    ],
+    "plan": [
+      "모임과 준비 관련 대화로 상황 살펴보기",
+      "핵심 어휘와 문법 익히기",
+      "모임을 계획하고 역할 나누기",
+      "마무리 퀴즈로 배운 내용 확인하기"
+    ]
+  },
+  "vocabulary": [
+    {
+      "id": "u11-v01",
+      "ko": "모임",
+      "romanization": "",
+      "meaning": "gathering",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u11-v02",
+      "ko": "초대하다",
+      "romanization": "",
+      "meaning": "to invite",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u11-v03",
+      "ko": "준비하다",
+      "romanization": "",
+      "meaning": "to prepare",
+      "audio": null,
+      "part": 1
+    },
+    {
+      "id": "u11-v06",
+      "ko": "케이크",
+      "romanization": "",
+      "meaning": "cake",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v07",
+      "ko": "꽃",
+      "romanization": "",
+      "meaning": "flowers",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v08",
+      "ko": "풍선",
+      "romanization": "",
+      "meaning": "balloons",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v09",
+      "ko": "음료수",
+      "romanization": "",
+      "meaning": "drink",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v10",
+      "ko": "카메라",
+      "romanization": "",
+      "meaning": "camera",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v11",
+      "ko": "초대장",
+      "romanization": "",
+      "meaning": "invitation",
+      "audio": null,
+      "part": 1,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v04",
+      "ko": "예약하다",
+      "romanization": "",
+      "meaning": "to reserve",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u11-v05",
+      "ko": "선물",
+      "romanization": "",
+      "meaning": "gift",
+      "audio": null,
+      "part": 2
+    },
+    {
+      "id": "u11-v12",
+      "ko": "모임을 준비하다",
+      "romanization": "",
+      "meaning": "to prepare a gathering",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v13",
+      "ko": "장소를 예약하다",
+      "romanization": "",
+      "meaning": "to reserve a place",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v14",
+      "ko": "사람들을 초대하다",
+      "romanization": "",
+      "meaning": "to invite people",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v15",
+      "ko": "시간을 정하다",
+      "romanization": "",
+      "meaning": "to set a time",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    },
+    {
+      "id": "u11-v16",
+      "ko": "회비를 모으다",
+      "romanization": "",
+      "meaning": "to collect dues",
+      "audio": null,
+      "part": 2,
+      "source": "textbook-vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "u11-g01",
+      "pattern": "-아야/어야 하다",
+      "explanation": "반드시 해야 하는 일을 말해요.",
+      "examples": [
+        {
+          "ko": "모임 전에 장소를 예약해야 해요.",
+          "meaning": "We must reserve a place before the gathering."
+        },
+        {
+          "ko": "손님이 오기 전에 방을 치워야 해요.",
+          "meaning": "We have to tidy the room before guests arrive."
+        }
+      ],
+      "details": {
+        "form": "동사 어간 + -아야/어야 하다",
+        "usage": "반드시 해야 하는 일이나 의무를 말합니다.",
+        "watchOut": "‘-고 싶다’는 바람, ‘-아야/어야 하다’는 필요나 의무입니다."
+      }
+    },
+    {
+      "id": "u11-g02",
+      "pattern": "-(으)ㄹ게요",
+      "explanation": "상대에게 자신의 의지나 약속을 말해요.",
+      "examples": [
+        {
+          "ko": "제가 음료를 준비할게요.",
+          "meaning": "I will prepare the drinks."
+        },
+        {
+          "ko": "제가 친구들에게 연락할게요.",
+          "meaning": "I will contact the friends."
+        }
+      ],
+      "details": {
+        "form": "받침 없거나 ㄹ 받침 → -ㄹ게요, 다른 받침 → -을게요",
+        "usage": "상대와 관계된 자신의 의지나 약속을 말합니다.",
+        "watchOut": "보통 말하는 사람의 행동에 사용하며, 질문형으로 상대에게 묻지 않습니다."
+      }
+    }
+  ],
+  "dialogue": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "윤아",
+        "text": "토요일 모임은 어디에서 할까요?",
+        "meaning": "Where shall we hold Saturday’s gathering?"
+      },
+      {
+        "speaker": "정민",
+        "text": "작은 카페를 예약할게요.",
+        "meaning": "I will reserve a small café."
+      },
+      {
+        "speaker": "윤아",
+        "text": "좋아요. 저는 친구들에게 연락할게요.",
+        "meaning": "Great. I will contact our friends."
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "id": "u11-q01",
+      "type": "multiple-choice",
+      "question": "‘모임’의 뜻은 무엇인가요?",
+      "choices": [
+        "gathering",
+        "to invite",
+        "to prepare"
+      ],
+      "answer": 0,
+      "explanation": "‘모임’는 ‘gathering’라는 뜻이에요.",
+      "hint": [
+        "첫 번째 어휘 카드를 떠올려 보세요.",
+        "영어 뜻을 비교해 보세요.",
+        "정답은 ‘gathering’이에요."
+      ]
+    },
+    {
+      "id": "u11-q02",
+      "type": "multiple-choice",
+      "question": "‘-아야/어야 하다’를 사용한 문장은?",
+      "choices": [
+        "모임 전에 장소를 예약해야 해요.",
+        "제가 음료를 준비할게요.",
+        "오늘은 금요일이에요."
+      ],
+      "answer": 0,
+      "explanation": "‘모임 전에 장소를 예약해야 해요.’에 이 문형이 쓰였어요.",
+      "hint": [
+        "첫 번째 문법 카드를 떠올려 보세요.",
+        "예문을 비교해 보세요.",
+        "‘모임 전에 장소를 예약해야 해요.’를 골라요."
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "type": "matching",
+      "pairs": [
+        [
+          "모임",
+          "gathering"
+        ],
+        [
+          "초대하다",
+          "to invite"
+        ],
+        [
+          "준비하다",
+          "to prepare"
+        ]
+      ]
+    }
+  ],
+  "rewards": {
+    "xpOnComplete": 50,
+    "badge": "모임 첫걸음"
+  },
+  "dialogue2": {
+    "audio": null,
+    "lines": [
+      {
+        "speaker": "윤아",
+        "text": "모임에 몇 명이 와요?",
+        "meaning": "How many people are coming to the gathering?"
+      },
+      {
+        "speaker": "정민",
+        "text": "여섯 명이에요. 그래서 큰 탁자를 예약해야 해요.",
+        "meaning": "Six people. So we need to reserve a large table."
+      },
+      {
+        "speaker": "윤아",
+        "text": "제가 음식도 조금 준비할게요.",
+        "meaning": "I will prepare some food too."
+      }
+    ]
+  },
+  "listening": {
+    "script": "금요일 저녁 일곱 시에 친구들과 모여요. 저는 장소를 예약할게요. 선우 씨는 친구들을 초대해 주세요.",
+    "question": {
+      "id": "u11-listen",
+      "type": "multiple-choice",
+      "question": "모임은 언제예요?",
+      "choices": [
+        "금요일 저녁 일곱 시",
+        "토요일 아침 일곱 시",
+        "목요일 저녁 여섯 시"
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘금요일 저녁 일곱 시’예요."
+      ]
+    }
+  },
+  "speaking": {
+    "prompt": "모임을 준비하며 장소 예약과 친구 연락을 누가 할지 정해 보세요."
+  },
+  "reading": {
+    "text": "이번 주 일요일에 작은 독서 모임이 있어요. 참석할 사람은 다섯 명이에요. 지수 씨는 책을 준비하고, 태오 씨는 장소를 예약할 거예요. 모두 읽고 싶은 책 한 권을 가져와야 해요.",
+    "question": {
+      "id": "u11-read",
+      "type": "multiple-choice",
+      "question": "태오 씨는 무엇을 할 거예요?",
+      "choices": [
+        "장소를 예약할 거예요.",
+        "책을 준비할 거예요.",
+        "음식을 만들 거예요."
+      ],
+      "answer": 0,
+      "explanation": "활동의 내용을 다시 확인해 보세요.",
+      "hint": [
+        "내용을 다시 읽거나 들어 보세요.",
+        "선택지와 내용을 비교해 보세요.",
+        "정답은 ‘장소를 예약할 거예요.’예요."
+      ]
+    }
+  },
+  "writing": {
+    "prompt": "친구에게 모임의 시간·장소·준비물을 알려 주는 초대 메시지를 써 보세요."
+  },
+  "dialoguePractice": {
+    "one": {
+      "question": {
+        "id": "u11-practice1",
+        "type": "multiple-choice",
+        "question": "정민은 무엇을 예약할 거예요?",
+        "choices": [
+          "카페",
+          "식당",
+          "호텔"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘카페’예요."
+        ]
+      },
+      "sentence": "토요일 모임은 어디에서 할까요?"
+    },
+    "two": {
+      "question": {
+        "id": "u11-practice2",
+        "type": "multiple-choice",
+        "question": "모임에 몇 명이 와요?",
+        "choices": [
+          "여섯 명",
+          "다섯 명",
+          "일곱 명"
+        ],
+        "answer": 0,
+        "explanation": "대화 내용을 다시 읽고 확인해 보세요.",
+        "hint": [
+          "대화를 다시 읽어 보세요.",
+          "선택지와 대화의 내용을 비교해 보세요.",
+          "정답은 ‘여섯 명’예요."
+        ]
+      },
+      "sentence": "모임에 몇 명이 와요?"
+    }
+  }
+}
