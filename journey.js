@@ -18,9 +18,13 @@ const stageNames={scene1:'대화 1',words1:'어휘 1',grammar1:'문법 1',practi
 const english={
   '-고':'and; connects two actions or states','그런데':'but / however','못':'cannot','-아서/어서':'because; so','-(으)ㄹ래요':'would like to','무슨':'what kind of','이/가 걸리다':'takes (time)','-에서 -까지':'from ... to ...','(으)로':'toward / by way of','-아/어 주다':'do something for someone','-지요?':'right? / isn’t it?','-(으)ㄴ':'describes a noun','-고 있다':'be doing / wearing','의':'of / belonging to','-(으)시-':'honorific form','-아/어 보다':'try / have experienced','-고 싶다':'want to','-지 말다':'do not','-(으)ㄴ 후에':'after doing','-아야/어야 하다':'must / have to','-(으)ㄹ게요':'I will (promise)','-지만':'but / although','보다':'than','-(으)ㄹ 때':'when','-(으)러 가다':'go to do','-(으)려고':'in order to','-(으)면':'if'
 };
-function choiceBlock(q,s,esc,lang) {
+function choiceBlockFull(q,s,esc,lang) {
   const done=s.answerChecked;
   return `<div class="activity-question"><span class="mini-label">이해 확인</span><h3>${esc(q.question)}</h3><div class="activity-options">${q.choices.map((choice,i)=>`<button class="activity-option ${s.answerChoice===i?'picked':''} ${done&&i===q.answer?'good':''} ${done&&s.answerChoice===i&&i!==q.answer?'bad':''}" data-action="journey-choice" data-index="${i}" ${done?'disabled':''}><b>${i+1}</b>${esc(choice)}</button>`).join('')}</div>${s.hintLevel?`<div class="activity-hint">💡 ${esc(q.hint[Math.min(s.hintLevel-1,q.hint.length-1)])}</div>`:''}${done?`<div class="activity-feedback ${s.answerChoice===q.answer?'success':''}">${s.answerChoice===q.answer?'✓ 맞았어요! Great job.':'다시 생각해 봐요. Try again.'}</div>`:''}<div class="answer-actions"><button class="secondary" data-action="journey-hint" ${s.hintLevel>=3?'disabled':''}>힌트 ${s.hintLevel||0}/3</button><button class="small-primary" data-action="journey-check" ${s.answerChoice===null?'disabled':''}>${esc(ui(lang,done&&s.answerChoice!==q.answer?'retry':'check'))}</button></div></div>`;
+}
+function choiceBlock(q,s,esc,lang,showQuestion=true) {
+  const html = choiceBlockFull(q,s,esc,lang);
+  return showQuestion ? html : html.replace(`<h3>${esc(q.question)}</h3>`, '');
 }
 function dialogue(lines,esc,lang,unitId,section){return `<div class="journey-dialogue">${lines.map((line,i)=>`<div class="journey-line ${i%2?'other':''}"><span class="speaker-face"><img src="${avatarFor(line.speaker)}" alt="${esc(line.speaker)} 얼굴"></span><div><small>${esc(line.speaker)}</small><div class="bubble-ko">${esc(line.text)}</div>${lang==='ko'?'':`<span class="bubble-en" lang="${lang}">${esc(lang==='ja'?(dialogueJa[unitId]?.[section]?.[i]||'번역 준비 중'):meaning(line.meaning,unitId,lang,section==='scene1'?'d1':'d2',i))}</span>`}</div></div>`).join('')}</div>`;}
 function playDialogueButton(lines,esc) {
@@ -28,6 +32,9 @@ function playDialogueButton(lines,esc) {
 }
 function skillGuides() {
   return `<div class="skill-guides"><section><strong>🎧 듣기 순서</strong><ol><li>질문을 먼저 읽어요.</li><li>한국어 음성을 들어요.</li><li>대본과 비교해요.</li><li>답을 고르고 확인해요.</li></ol></section><section><strong>🎙️ 말하기 순서</strong><ol><li>핵심 단어 두 개를 골라요.</li><li>짧은 문장으로 먼저 말해요.</li><li>문법을 넣어 다시 말해요.</li></ol></section></div>`;
+}
+function listeningQuestion(q,esc) {
+  return `<div class="listening-question"><span class="mini-label">먼저 읽어 보세요</span><h2>${esc(q.question)}</h2></div>`;
 }
 export function puzzleTokens(unit,step){
   const sentence=(step==='practice1'?unit.dialoguePractice.one:unit.dialoguePractice.two).sentence;
@@ -64,7 +71,7 @@ export function renderJourney({unit,state,chrome,esc,manifest}){
     body=`<div class="journey-intro"><span class="eyebrow">대화 ${first?'1':'2'} · 연습</span><h1>대화를 내 것으로 만들어요</h1><p>아래 대화를 읽고 문제를 풀어 보세요.</p></div><div class="practice-source-label">📖 대화 ${first?'1':'2'} 다시 보기</div>${playDialogueButton(lines,esc)}${dialogue(lines,esc,state.language,unit.unitId,first?'scene1':'scene2')}${choiceBlock(activity.question,s,esc,state.language)}${puzzleBlock(unit,s,esc)}`;
   } else if(stage==='listening'){
     const q=unit.listening.question;
-    body=`<div class="journey-intro"><span class="eyebrow">LISTENING · 듣고 이해하기</span><h1>귀로 먼저 만나 봐요</h1><p>질문을 읽고 음성을 들어 보세요. 필요하면 대본을 열 수 있어요.</p></div>${skillGuides()}<div class="listening-stage"><div class="sound-art">🎧<span>♪</span></div><button class="primary play-button" data-action="journey-tts" data-text="${esc(unit.listening.script)}">▶ 한국어 듣기</button><small>${esc(t(state.language,'tts'))}</small><button class="text-link" data-action="journey-transcript">${s.transcript?'대본 숨기기':'대본 보기 · Show transcript'} →</button>${s.transcript?`<p class="transcript">${esc(unit.listening.script)}</p>`:''}</div>${choiceBlock(q,s,esc,state.language)}`;
+    body=`<div class="journey-intro"><span class="eyebrow">LISTENING · 듣고 이해하기</span><h1>귀로 먼저 만나 봐요</h1><p>질문을 읽고 음성을 들어 보세요. 필요하면 대본을 열 수 있어요.</p></div>${skillGuides()}${listeningQuestion(q,esc)}<div class="listening-stage"><div class="sound-art">🎧<span>♪</span></div><button class="primary play-button" data-action="journey-tts" data-text="${esc(unit.listening.script)}">▶ 한국어 듣기</button><small>${esc(t(state.language,'tts'))}</small><button class="text-link" data-action="journey-transcript">${s.transcript?'대본 숨기기':'대본 보기 · Show transcript'} →</button>${s.transcript?`<p class="transcript">${esc(unit.listening.script)}</p>`:''}</div>${choiceBlock(q,s,esc,state.language,false)}`;
   } else if(stage==='speaking'){
     body=`<div class="journey-intro"><span class="eyebrow">SPEAKING · 나의 말로 표현하기</span><h1>이번에는 내가 말할 차례</h1><p>대화의 표현을 바꿔 자기 이야기로 말해 보세요.</p></div>${skillGuides()}<div class="speaking-card"><span class="speaking-emoji">🎙️</span><span class="mini-label">SPEAKING PROMPT</span><h2>${esc(unit.speaking.prompt)}</h2><button class="small-primary" data-action="journey-tts" data-text="${esc(unit.dialogue.lines[0].text)}">🔊 대화 첫 문장 듣기</button></div>`;
   } else if(stage==='reading'){
