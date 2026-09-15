@@ -26,6 +26,9 @@ function dialogue(lines,esc,lang,unitId,section){return `<div class="journey-dia
 function playDialogueButton(lines,esc) {
   return `<div class="dialogue-play"><button class="secondary" data-action="journey-tts" data-text="${esc(lines.map(line=>line.text).join(' '))}" aria-label="대화 전체 듣기">🔊 대화 전체 듣기</button><small>대화 순서대로 한국어 합성 음성으로 들려줍니다.</small></div>`;
 }
+function skillGuides() {
+  return `<div class="skill-guides"><section><strong>🎧 듣기 순서</strong><ol><li>질문을 먼저 읽어요.</li><li>한국어 음성을 들어요.</li><li>대본과 비교해요.</li><li>답을 고르고 확인해요.</li></ol></section><section><strong>🎙️ 말하기 순서</strong><ol><li>핵심 단어 두 개를 골라요.</li><li>짧은 문장으로 먼저 말해요.</li><li>문법을 넣어 다시 말해요.</li></ol></section></div>`;
+}
 export function puzzleTokens(unit,step){
   const sentence=(step==='practice1'?unit.dialoguePractice.one:unit.dialoguePractice.two).sentence;
   const ordered=sentence.trim().split(/\s+/);
@@ -61,9 +64,9 @@ export function renderJourney({unit,state,chrome,esc,manifest}){
     body=`<div class="journey-intro"><span class="eyebrow">대화 ${first?'1':'2'} · 연습</span><h1>대화를 내 것으로 만들어요</h1><p>아래 대화를 읽고 문제를 풀어 보세요.</p></div><div class="practice-source-label">📖 대화 ${first?'1':'2'} 다시 보기</div>${playDialogueButton(lines,esc)}${dialogue(lines,esc,state.language,unit.unitId,first?'scene1':'scene2')}${choiceBlock(activity.question,s,esc,state.language)}${puzzleBlock(unit,s,esc)}`;
   } else if(stage==='listening'){
     const q=unit.listening.question;
-    body=`<div class="journey-intro"><span class="eyebrow">LISTENING · 듣고 이해하기</span><h1>귀로 먼저 만나 봐요</h1><p>질문을 읽고 음성을 들어 보세요. 필요하면 대본을 열 수 있어요.</p></div><div class="listening-stage"><div class="sound-art">🎧<span>♪</span></div><button class="primary play-button" data-action="journey-tts" data-text="${esc(unit.listening.script)}">▶ 한국어 듣기</button><small>${esc(t(state.language,'tts'))}</small><button class="text-link" data-action="journey-transcript">${s.transcript?'대본 숨기기':'대본 보기 · Show transcript'} →</button>${s.transcript?`<p class="transcript">${esc(unit.listening.script)}</p>`:''}</div>${choiceBlock(q,s,esc,state.language)}`;
+    body=`<div class="journey-intro"><span class="eyebrow">LISTENING · 듣고 이해하기</span><h1>귀로 먼저 만나 봐요</h1><p>질문을 읽고 음성을 들어 보세요. 필요하면 대본을 열 수 있어요.</p></div>${skillGuides()}<div class="listening-stage"><div class="sound-art">🎧<span>♪</span></div><button class="primary play-button" data-action="journey-tts" data-text="${esc(unit.listening.script)}">▶ 한국어 듣기</button><small>${esc(t(state.language,'tts'))}</small><button class="text-link" data-action="journey-transcript">${s.transcript?'대본 숨기기':'대본 보기 · Show transcript'} →</button>${s.transcript?`<p class="transcript">${esc(unit.listening.script)}</p>`:''}</div>${choiceBlock(q,s,esc,state.language)}`;
   } else if(stage==='speaking'){
-    body=`<div class="journey-intro"><span class="eyebrow">SPEAKING · 나의 말로 표현하기</span><h1>이번에는 내가 말할 차례</h1><p>대화의 표현을 바꿔 자기 이야기로 말해 보세요.</p></div><div class="speaking-card"><span class="speaking-emoji">🎙️</span><span class="mini-label">SPEAKING PROMPT</span><h2>${esc(unit.speaking.prompt)}</h2><div class="speaking-help"><strong>말하기 순서 · Speaking guide</strong><ol><li>핵심 단어 두 개를 고르세요.</li><li>짧은 문장으로 먼저 말하세요.</li><li>문법 표현을 넣어 다시 말하세요.</li></ol></div><button class="small-primary" data-action="journey-tts" data-text="${esc(unit.dialogue.lines[0].text)}">🔊 대화 첫 문장 듣기</button></div>`;
+    body=`<div class="journey-intro"><span class="eyebrow">SPEAKING · 나의 말로 표현하기</span><h1>이번에는 내가 말할 차례</h1><p>대화의 표현을 바꿔 자기 이야기로 말해 보세요.</p></div>${skillGuides()}<div class="speaking-card"><span class="speaking-emoji">🎙️</span><span class="mini-label">SPEAKING PROMPT</span><h2>${esc(unit.speaking.prompt)}</h2><button class="small-primary" data-action="journey-tts" data-text="${esc(unit.dialogue.lines[0].text)}">🔊 대화 첫 문장 듣기</button></div>`;
   } else if(stage==='reading'){
     body=`<div class="journey-intro"><span class="eyebrow">READING · 읽고 이해하기</span><h1>짧은 글을 읽어 봐요</h1><p>모르는 단어가 있어도 전체 상황을 먼저 생각해 보세요.</p></div><article class="reading-card"><span class="reading-icon">📖</span><span class="mini-label">SHORT READING</span><p>${esc(unit.reading.text)}</p></article>${choiceBlock(unit.reading.question,s,esc,state.language)}`;
   } else if(stage==='writing'){
