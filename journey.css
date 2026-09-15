@@ -5,3 +5,4 @@
 .vocabulary-groups{max-width:760px;margin:0 auto;display:grid;gap:25px}.vocabulary-group h2{font-size:15px;color:#3f7651;margin:0 0 11px;padding-left:12px;border-left:4px solid #72b384;line-height:1.5}.vocabulary-group .visual-words{max-width:none}
 .dialogue-play{max-width:760px;margin:0 auto 12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}.dialogue-play .secondary{min-height:40px}.dialogue-play small{font-size:11px;color:#7e9985}
 .puzzle-heading{display:flex;align-items:flex-start;flex-direction:column;gap:10px;margin:10px 0 16px}.puzzle-heading h3{width:100%;margin:0}.puzzle-heading .secondary{min-height:38px}
+.puzzle-actions{justify-content:flex-start;flex-wrap:wrap}.puzzle-actions .small-primary{margin-left:auto}.puzzle-actions .secondary:last-child{margin-left:0}@media(max-width:520px){.puzzle-actions .small-primary{margin-left:0}}
